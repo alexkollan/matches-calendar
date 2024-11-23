@@ -2,12 +2,6 @@
 Node JS app which adds spots events in your calendar along with their TV channel.
 
 
-## DISCLAIMER: 
-This project interacts with an undocumented API at https://www.gazzetta.gr/gztfeeds/tvschedule-v2. 
-This API is not officially supported or endorsed by its owners. The data retrieved via this API belongs 
-to its respective owners, and the use of this data may be subject to their terms of service.
-
-
 ## MIT License
 
 Copyright (c) 2024 Alex Kollan
