@@ -17,17 +17,17 @@ This Node.js application fetches sports TV schedules from an undocumented API, p
 ## **Setup Instructions**
 
 ### **Step 1: Clone the Repository**
-\`\`\`bash
+```bash
 git clone https://github.com/<your-username>/<your-repo-name>.git
 cd <your-repo-name>
-\`\`\`
+```
 
 ---
 
 ### **Step 2: Install Dependencies**
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ---
 
@@ -50,14 +50,14 @@ npm install
 ### **Step 4: Authenticate the Application**
 
 1. Run the application:
-   \`\`\`bash
+   ```bash
    node index.js
-   \`\`\`
+   ```
 
 2. You’ll see a URL in the console:
-   \`\`\`
+   ```
    Authorize this app by visiting this URL: <URL>
-   \`\`\`
+   ```
 
 3. Open the URL in your browser, log in with your Google account, and grant the necessary permissions.
 
@@ -70,9 +70,9 @@ npm install
 ### **Step 5: Running the Application**
 To fetch TV schedules and add matches to Google Calendar, run:
 
-\`\`\`bash
+```bash
 node index.js
-\`\`\`
+```
 
 The script will:
 1. Fetch sports matches from \`https://www.gazzetta.gr/gztfeeds/tvschedule-v2\`.
@@ -83,7 +83,7 @@ The script will:
 
 ## **Project Structure**
 
-\`\`\`plaintext
+```plaintext
 project/
 ├── src/
 │   ├── auth.js           # Handles Google OAuth2 authentication
@@ -95,7 +95,7 @@ project/
 ├── credentials.json      # Google OAuth2 credentials file (DO NOT SHARE)
 ├── token.json            # Google OAuth2 access token (DO NOT SHARE)
 ├── package.json          # Node.js project metadata
-\`\`\`
+```
 
 ---
 
@@ -104,31 +104,31 @@ project/
 ### **Teams to Track**
 Update the \`teams\` array in \`fetchSchedule.js\` to include the teams you want to track:
 
-\`\`\`javascript
+```javascript
 const teams = ["ΟΛΥΜΠΙΑΚΟΣ", "ΠΑΝΑΘΗΝΑΙΚΟΣ", "ΕΛΛΑΔΑ"];
-\`\`\`
+```
 
 ---
 
 ### **Event Filters**
 Modify conditions to include or exclude specific sports or leagues:
 
-\`\`\`javascript
+```javascript
 if (
     (match.sport_name === "Ποδόσφαιρο" || match.sport_name === "Μπάσκετ") &&
     teams.some(team => match.participant1?.name?.includes(team) || match.participant2?.name?.includes(team)) &&
     !match.league?.name?.includes("Γυναικών")
 )
-\`\`\`
+```
 
 ---
 
 ### **Event Colors**
 Change the Google Calendar event color in \`calendar.js\`:
 
-\`\`\`javascript
+```javascript
 colorId: '2', // Change this to the desired color ID
-\`\`\`
+```
 
 ---
 
@@ -165,9 +165,6 @@ Contributions are welcome! Please fork the repository, create a feature branch, 
 ### **Disclaimer**
 This app relies on an undocumented API that may change without notice. If the API endpoint or data format is updated, adjustments will be required in \`fetchSchedule.js\`.
 
-
-
-
 ## MIT License
 
 Copyright (c) 2024 Alex Kollan
@@ -193,3 +190,5 @@ SOFTWARE.
 DISCLAIMER: This project interacts with an undocumented API at https://www.gazzetta.gr/gztfeeds/tvschedule-v2.
 This API is not officially supported or endorsed by its owners. The data retrieved via this API belongs
 to its respective owners, and the use of this data may be subject to their terms of service.
+
+
