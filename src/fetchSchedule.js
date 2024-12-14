@@ -1,6 +1,9 @@
+// src/fetchSchedule.js
+
 const fetch = require('node-fetch');
 const { createHash } = require('./utils');
 const { addEvent } = require('./calendar');
+const { teams, leagueExclusions } = require('./config');
 
 /**
  * Fetches the TV schedule and adds matches to Google Calendar.
@@ -11,7 +14,6 @@ async function fetchTVSchedule(auth) {
     const response = await fetch(url);
     const data = await response.json();
 
-    const teams = ["ΟΛΥΜΠΙΑΚΟΣ", "ΠΑΝΑΘΗΝΑΙΚΟΣ", "ΕΛΛΑΔΑ"];
     const matches = [];
 
     for (const day in data.dates) {
@@ -19,7 +21,7 @@ async function fetchTVSchedule(auth) {
             if (
                 (match.sport_name === "Ποδόσφαιρο" || match.sport_name === "Μπάσκετ") &&
                 teams.some(team => match.participant1?.name?.includes(team) || match.participant2?.name?.includes(team)) &&
-                !match.league?.name?.includes("Γυναικών")
+                !leagueExclusions.some(exclusion => match.league?.name?.includes(exclusion))
             ) {
                 const details = {
                     title: `${match.participant1?.name} - ${match.participant2?.name} (${match.sport_name})`,

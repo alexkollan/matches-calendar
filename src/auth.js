@@ -12,12 +12,34 @@ const TOKEN_PATH = 'token.json';
 function authorize(callback) {
     const credentials = JSON.parse(fs.readFileSync('credentials.json'));
     const { client_secret, client_id, redirect_uris } = credentials.installed;
-    const oAuth2Client = new google.auth.OAuth2(client_id, client_secret, redirect_uris[0]);
+    const oAuth2Client = new google.auth.OAuth2(client_id, client_secret, 'urn:ietf:wg:oauth:2.0:oob');
 
-    fs.readFile(TOKEN_PATH, (err, token) => {
+    fs.readFile(TOKEN_PATH, async (err, token) => {
         if (err) return getAccessToken(oAuth2Client, callback);
         oAuth2Client.setCredentials(JSON.parse(token));
+
+        // Automatically refresh the access token if it's expired
+        try {
+            const newToken = await oAuth2Client.refreshAccessToken();
+            oAuth2Client.setCredentials(newToken.credentials);
+            fs.writeFileSync(TOKEN_PATH, JSON.stringify(oAuth2Client.credentials));
+            console.log('Access token is valid or has been refreshed.');
+        } catch (error) {
+            console.error('Error refreshing access token:', error);
+            return getAccessToken(oAuth2Client, callback);
+        }
+
         callback(oAuth2Client);
+    });
+
+    // Listen for token updates to store the new refresh token if issued
+    oAuth2Client.on('tokens', (tokens) => {
+        if (tokens.refresh_token) {
+            const currentToken = JSON.parse(fs.readFileSync(TOKEN_PATH));
+            const updatedToken = { ...currentToken, ...tokens };
+            fs.writeFileSync(TOKEN_PATH, JSON.stringify(updatedToken));
+            console.log('New refresh token stored to', TOKEN_PATH);
+        }
     });
 }
 

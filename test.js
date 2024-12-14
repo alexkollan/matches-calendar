@@ -1,21 +1,28 @@
+// src/calendar.js
+
 const { google } = require('googleapis');
-const { createHash } = require('./utils');
+const calendar = google.calendar('v3');
 
 /**
- * Adds an event to Google Calendar if it doesn't already exist.
+ * Adds an event to Google Calendar.
  * @param {google.auth.OAuth2} auth - The authorized OAuth2 client.
- * @param {Object} match - Match details to add as an event.
+ * @param {Object} match - The match details.
  */
 async function addEvent(auth, match) {
-    const calendar = google.calendar({ version: 'v3', auth });
-
     const [day, month, year] = match.date.split('/');
-    const startDateTime = `${year}-${month}-${day}T${match.time}:00`;
+    const [hours, minutes] = match.time.split(':');
+    const dateTimeString = new Date(year, month - 1, day, hours, minutes);
 
-    const [hours, minutes] = match.time.split(':').map(Number);
-    const endHours = hours + Math.floor((minutes + 90) / 60);
-    const endMinutes = (minutes + 90) % 60;
-    const endDateTime = `${year}-${month}-${day}T${endHours.toString().padStart(2, '0')}:${endMinutes.toString().padStart(2, '0')}:00`;
+    let startDateTime, endDateTime;
+
+    try {
+        startDateTime = dateTimeString.toISOString();
+        endDateTime = new Date(dateTimeString.getTime() + 2 * 60 * 60 * 1000).toISOString(); // Assuming 2 hours duration
+    } catch (error) {
+        console.error(`Invalid date or time value: ${match.date} ${match.time}`);
+        console.error(error.message);
+        return;
+    }
 
     try {
         const res = await calendar.events.list({
@@ -45,16 +52,26 @@ async function addEvent(auth, match) {
             colorId: '2',
         };
 
+        console.log('Inserting event:', event);
+
         const insertRes = await calendar.events.insert({
+            auth: auth,
             calendarId: 'primary',
             resource: event,
         });
+
         console.log(`Event added: ${match.title} (Event ID: ${insertRes.data.id})`);
+
+        // Add a delay between requests
+        await delay(1000); // 1 second delay
     } catch (err) {
         console.error(`Error adding event: ${match.title}`);
         console.error(err.errors || err.message);
-        console.error(err);
     }
+}
+
+function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 module.exports = { addEvent };

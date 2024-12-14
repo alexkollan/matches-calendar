@@ -1,0 +1,3175 @@
+{
+    "dates": {
+        "23\/11": {
+            "events": [
+                {
+                    "league": {
+                        "name": "NBA",
+                        "logo": "\/sites\/default\/files\/2021-01\/nba.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732321800,
+                    "plainTime": "02:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/basketball\/milwaukee-bucks",
+                        "logo": "\/sites\/default\/files\/2023-09\/milwaukee_bucks_logo.svg_1.png",
+                        "name": "\u039c\u0399\u039b\u0393\u039f\u03a5\u039f\u039a\u0399 \u039c\u03a0\u0391\u039a\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/basketball\/indiana-pacers",
+                        "logo": "\/sites\/default\/files\/2023-09\/indiana_pacers.svg_1.png",
+                        "name": "\u0399\u039d\u03a4\u0399\u0391\u039d\u0391 \u03a0\u0395\u0399\u03a3\u0395\u03a1\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/basketball\/nba\/standings",
+                    "live_url": "\/basketball\/nba\/milgoyoki-mpaks-intiana-peisers-23-11-2024",
+                    "event_id": "5629083",
+                    "channel1": {
+                        "name": "CosmoteSport 4",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_4.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "NBA",
+                        "logo": "\/sites\/default\/files\/2021-01\/nba.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732323600,
+                    "plainTime": "03:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/basketball\/new-orleans-pelicans",
+                        "logo": "\/sites\/default\/files\/2023-09\/new_orleans_pelicans_logo.svg_1.png",
+                        "name": "\u039d\u0399\u039f\u03a5 \u039f\u03a1\u039b\u0399\u039d\u03a3 \u03a0\u0395\u039b\u0399\u039a\u0391\u039d\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/basketball\/golden-state-warriors",
+                        "logo": "\/sites\/default\/files\/2023-09\/golden_state_warriors_logo.svg_1.png",
+                        "name": "\u0393\u039a\u039f\u039b\u039d\u03a4\u0395\u039d \u03a3\u03a4\u0395\u0399\u03a4 \u0393\u039f\u03a5\u039f\u03a1\u0399\u039f\u03a1\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/basketball\/nba\/standings",
+                    "live_url": "\/basketball\/nba\/nioy-orlins-pelikans-gkolnten-steit-goyoriors-23-11-2024",
+                    "event_id": "5629086",
+                    "channel1": {
+                        "name": "CosmoteSport 7",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_7.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "WRC",
+                        "logo": ""
+                    },
+                    "sport_name": "\u039c\u03b7\u03c7\u03b1\u03bd\u03bf\u03ba\u03af\u03bd\u03b7\u03c4\u03bf\u03c2 \u03b1\u03b8\u03bb\u03b7\u03c4\u03b9\u03c3\u03bc\u03cc\u03c2 ",
+                    "timestamp": 1732334400,
+                    "plainTime": "06:00",
+                    "event_text": "WRC \u0399\u03b1\u03c0\u03c9\u03bd\u03af\u03b1, SS13 Mt Kasagiyama 2",
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 5",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_5.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "WRC",
+                        "logo": ""
+                    },
+                    "sport_name": "\u039c\u03b7\u03c7\u03b1\u03bd\u03bf\u03ba\u03af\u03bd\u03b7\u03c4\u03bf\u03c2 \u03b1\u03b8\u03bb\u03b7\u03c4\u03b9\u03c3\u03bc\u03cc\u03c2 ",
+                    "timestamp": 1732338300,
+                    "plainTime": "07:05",
+                    "event_text": "WRC \u0399\u03b1\u03c0\u03c9\u03bd\u03af\u03b1, SS14 Nenoe Kougen 2",
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 5",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_5.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "WRC",
+                        "logo": ""
+                    },
+                    "sport_name": "\u039c\u03b7\u03c7\u03b1\u03bd\u03bf\u03ba\u03af\u03bd\u03b7\u03c4\u03bf\u03c2 \u03b1\u03b8\u03bb\u03b7\u03c4\u03b9\u03c3\u03bc\u03cc\u03c2 ",
+                    "timestamp": 1732342500,
+                    "plainTime": "08:15",
+                    "event_text": "WRC \u0399\u03b1\u03c0\u03c9\u03bd\u03af\u03b1, SS15 Ena 2",
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 5",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_5.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "WRC",
+                        "logo": ""
+                    },
+                    "sport_name": "\u039c\u03b7\u03c7\u03b1\u03bd\u03bf\u03ba\u03af\u03bd\u03b7\u03c4\u03bf\u03c2 \u03b1\u03b8\u03bb\u03b7\u03c4\u03b9\u03c3\u03bc\u03cc\u03c2 ",
+                    "timestamp": 1732356300,
+                    "plainTime": "12:05",
+                    "event_text": "WRC \u0399\u03b1\u03c0\u03c9\u03bd\u03af\u03b1, SS16 Toyota Stadium SSS2",
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 5",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_5.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "UFC Fight Night ",
+                        "logo": ""
+                    },
+                    "sport_name": "\u039c\u03b1\u03c7\u03b7\u03c4\u03b9\u03ba\u03ac \u0391\u03b8\u03bb\u03ae\u03bc\u03b1\u03c4\u03b1",
+                    "timestamp": 1732359600,
+                    "plainTime": "13:00",
+                    "event_text": "UFC Fight Night: Petr Yan-Deiveson Figueiredo, \u039a\u03af\u03bd\u03b1, \u039c\u03b1\u03ba\u03ac\u03bf\u03c5",
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Davis Cup Finals",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a4\u03ad\u03bd\u03bd\u03b9\u03c2",
+                    "timestamp": 1732363200,
+                    "plainTime": "14:00",
+                    "event_text": "Davis Cup Finals 2024: \u0392\u2019 \u0397\u03bc\u03b9\u03c4\u03b5\u03bb\u03b9\u03ba\u03cc\u03c2",
+                    "gazzetta_url_standings": "\/tennis\/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "Novasports 6",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports6a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Sky Bet EFL Championship",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732365000,
+                    "plainTime": "14:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "",
+                        "logo": "\/sites\/default\/files\/2023-09\/1200px-logo_coventry_city_fc.svg.png",
+                        "name": "\u039a\u039f\u0392\u0395\u039d\u03a4\u03a1\u0399"
+                    },
+                    "participant2": {
+                        "url": "\/football\/sheffield-united",
+                        "logo": "\/sites\/default\/files\/2023-09\/sheffield_united_fc_logo.svg_1.png",
+                        "name": "\u03a3\u0395\u03a6\u0399\u039b\u039d\u03a4 \u0393\u0399\u039f\u03a5\u039d\u0391\u0399\u03a4\u0395\u039d\u03a4"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 3",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Premier League",
+                        "logo": "\/sites\/default\/files\/2021-01\/premier_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732365000,
+                    "plainTime": "14:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/leicester",
+                        "logo": "\/sites\/default\/files\/2021-01\/leicester_0.svg",
+                        "name": "\u039b\u0395\u03a3\u03a4\u0395\u03a1"
+                    },
+                    "participant2": {
+                        "url": "\/football\/chelsea",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_chelsea_fc_v2.svg",
+                        "name": "\u03a4\u03a3\u0395\u039b\u03a3\u0399"
+                    },
+                    "gazzetta_url_standings": "\/football\/premier-league\/standings",
+                    "live_url": "\/football\/premier-league\/lester-tselsi-23-11-2024",
+                    "event_id": "5515283",
+                    "channel1": {
+                        "name": "Novasports PL",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports_premier_league1_0.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "La Liga",
+                        "logo": "\/sites\/default\/files\/2021-01\/la_liga-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732366800,
+                    "plainTime": "15:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/valencia",
+                        "logo": "\/sites\/default\/files\/2021-01\/valenciacf.svg",
+                        "name": "\u0392\u0391\u039b\u0395\u039d\u0398\u0399\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/real-betis",
+                        "logo": "\/sites\/default\/files\/2021-01\/real_betis.svg",
+                        "name": "\u039c\u03a0\u0395\u03a4\u0399\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/football\/la-liga\/standings",
+                    "live_url": "\/football\/la-liga\/valenthia-mpetis-23-11-2024",
+                    "event_id": "5517071",
+                    "channel1": {
+                        "name": "Novasports 1",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports1a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Superleague 2",
+                        "logo": "\/sites\/default\/files\/2024-02\/superleague2.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732366800,
+                    "plainTime": "15:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/kabala",
+                        "logo": "\/sites\/default\/files\/2021-01\/kavala-min.png",
+                        "name": "\u039a\u0391\u0392\u0391\u039b\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/football\/ael",
+                        "logo": "\/sites\/default\/files\/2023-09\/ael_fc_2016_logo.png",
+                        "name": "\u0391\u0395\u039b"
+                    },
+                    "gazzetta_url_standings": "\/football\/superleague-2\/standings",
+                    "live_url": "\/football\/superleague-2\/kavala-ael-23-11-2024",
+                    "event_id": "5696196",
+                    "channel1": {
+                        "name": "SKAI",
+                        "logo": "\/sites\/default\/files\/2023-08\/skai.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "\u03912 \u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4 - Elite League",
+                        "logo": "\/sites\/default\/files\/2022-10\/elite_1_0.jpg"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732370400,
+                    "plainTime": "16:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/basketball\/koroibos",
+                        "logo": "\/sites\/default\/files\/2021-01\/koroivos-min.png",
+                        "name": "\u039a\u039f\u03a1\u039f\u0399\u0392\u039f\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/iraklis",
+                        "logo": "\/sites\/default\/files\/2021-01\/iraklis-min.png",
+                        "name": "\u0397\u03a1\u0391\u039a\u039b\u0397\u03a3"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "ACTION 24",
+                        "logo": "\/sites\/default\/files\/2023-08\/action24.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Serie A",
+                        "logo": "\/sites\/default\/files\/2021-01\/serie_a-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732370400,
+                    "plainTime": "16:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/hellas-verona",
+                        "logo": "\/sites\/default\/files\/2023-09\/hellas_verona_fc_logo_2020.svg_1.png",
+                        "name": "\u0395\u039b\u039b\u0391\u03a3 \u0392\u0395\u03a1\u039f\u039d\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/football\/inter",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_fc_internazionale_milano_v2.svg",
+                        "name": "\u0399\u039d\u03a4\u0395\u03a1"
+                    },
+                    "gazzetta_url_standings": "\/football\/serie-a\/standings",
+                    "live_url": "\/football\/seriea\/ellas-verona-inter-live-23-11-2024",
+                    "event_id": "5544753",
+                    "channel1": {
+                        "name": "CosmoteSport 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_2.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Bundesliga",
+                        "logo": "\/sites\/default\/files\/2024-10\/bundesliga-min2.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732372200,
+                    "plainTime": "16:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/leverkusen",
+                        "logo": "\/sites\/default\/files\/2021-01\/leverkusen-min.png",
+                        "name": "\u039c\u03a0\u0391\u0393\u0395\u03a1 \u039b\u0395\u0392\u0395\u03a1\u039a\u039f\u03a5\u0396\u0395\u039d"
+                    },
+                    "participant2": {
+                        "url": "\/football\/haintenhaim",
+                        "logo": "\/sites\/default\/files\/2023-09\/1._fc_heidenheim_1846.svg_1.png",
+                        "name": "\u03a7\u0391\u0399\u039d\u03a4\u0395\u039d\u03a7\u0391\u0399\u039c"
+                    },
+                    "gazzetta_url_standings": "\/football\/bundesliga\/standings",
+                    "live_url": "\/football\/bundesliga\/mpager-leverkoyzen-chaintenchaim-23-11-2024",
+                    "event_id": "5545790",
+                    "channel1": {
+                        "name": "Novasports 3",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports3a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Bundesliga",
+                        "logo": "\/sites\/default\/files\/2024-10\/bundesliga-min2.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732372200,
+                    "plainTime": "16:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/dortmund",
+                        "logo": "\/sites\/default\/files\/2023-09\/borussia_dortmund_logo.svg_1.png",
+                        "name": "\u039d\u03a4\u039f\u03a1\u03a4\u039c\u039f\u03a5\u039d\u03a4"
+                    },
+                    "participant2": {
+                        "url": "\/football\/freiburg",
+                        "logo": "\/sites\/default\/files\/2023-09\/sc_freiburg_logo.svg_1.png",
+                        "name": "\u03a6\u03a1\u0391\u0399\u039c\u03a0\u039f\u03a5\u03a1\u0393\u039a"
+                    },
+                    "gazzetta_url_standings": "\/football\/bundesliga\/standings",
+                    "live_url": "\/football\/bundesliga\/ntortmoynt-fraimpoyrgk-23-11-2024",
+                    "event_id": "5545793",
+                    "channel1": {
+                        "name": "Novasports Extra 1",
+                        "logo": "\/sites\/default\/files\/2023-09\/nova_sports_extra1_0.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Bundesliga",
+                        "logo": "\/sites\/default\/files\/2024-10\/bundesliga-min2.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732372200,
+                    "plainTime": "16:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/hoffenheim",
+                        "logo": "\/sites\/default\/files\/2023-09\/logo_tsg_hoffenheim.svg_1.png",
+                        "name": "\u03a7\u039f\u03a6\u0395\u039d\u03a7\u0391\u0399\u039c"
+                    },
+                    "participant2": {
+                        "url": "\/football\/rb-leipzig",
+                        "logo": "\/sites\/default\/files\/2023-09\/rb_leipzig_2014_logo.svg_1.png",
+                        "name": "\u039b\u0395\u0399\u03a8\u0399\u0391"
+                    },
+                    "gazzetta_url_standings": "\/football\/bundesliga\/standings",
+                    "live_url": "\/football\/bundesliga\/chofenchaim-leiyia-23-11-2024",
+                    "event_id": "5545795",
+                    "channel1": {
+                        "name": "Novasports Extra 2",
+                        "logo": "\/sites\/default\/files\/2023-09\/nova_sports_extra2.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Bundesliga",
+                        "logo": "\/sites\/default\/files\/2024-10\/bundesliga-min2.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732372200,
+                    "plainTime": "16:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/wolfsburg",
+                        "logo": "\/sites\/default\/files\/2023-09\/vfl_wolfsburg_logo.svg_2.png",
+                        "name": "\u0392\u039f\u039b\u03a6\u03a3\u039c\u03a0\u039f\u03a5\u03a1\u0393\u039a"
+                    },
+                    "participant2": {
+                        "url": "\/football\/union-berlin",
+                        "logo": "\/sites\/default\/files\/2021-01\/union-berlin-min.png",
+                        "name": "\u039f\u03a5\u039d\u0399\u039f\u039d \u0392\u0395\u03a1\u039f\u039b\u0399\u039d\u039f\u03a5"
+                    },
+                    "gazzetta_url_standings": "\/football\/bundesliga\/standings",
+                    "live_url": "\/football\/bundesliga\/volfsmpoyrgk-oynion-verolinoy-23-11-2024",
+                    "event_id": "5545798",
+                    "channel1": {
+                        "name": "Novasports Extra 3",
+                        "logo": "\/sites\/default\/files\/2023-09\/nova_sports_extra3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Bundesliga",
+                        "logo": "\/sites\/default\/files\/2024-10\/bundesliga-min2.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732372200,
+                    "plainTime": "16:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/stuttgart",
+                        "logo": "\/sites\/default\/files\/2023-09\/vfb_stuttgart_1893_logo.svg_1.png",
+                        "name": "\u03a3\u03a4\u039f\u03a5\u03a4\u0393\u039a\u0391\u03a1\u0394\u0397"
+                    },
+                    "participant2": {
+                        "url": "\/football\/bochum",
+                        "logo": "\/sites\/default\/files\/2023-09\/vfl_bochum_logo.svg_1.png",
+                        "name": "\u039c\u03a0\u039f\u03a7\u039f\u03a5\u039c"
+                    },
+                    "gazzetta_url_standings": "\/football\/bundesliga\/standings",
+                    "live_url": "\/football\/bundesliga\/stoytgkardi-mpochoym-23-11-2024",
+                    "event_id": "5545797",
+                    "channel1": {
+                        "name": "Novasports Extra 4",
+                        "logo": "\/sites\/default\/files\/2023-09\/nova_sports_extra4.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Handball Premier League",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a7\u03ac\u03bd\u03c4\u03bc\u03c0\u03bf\u03bb",
+                    "timestamp": 1732374000,
+                    "plainTime": "17:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "",
+                        "logo": "\/modules\/custom\/wstats\/assets\/img\/default-logo.png",
+                        "name": "\u039a\u0399\u039b\u039a\u0399\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/aek",
+                        "logo": "\/sites\/default\/files\/2021-05\/aek_0.png",
+                        "name": "\u0391\u0395\u039a"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "ERT 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/ert_2_hd.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Stoiximan Superleague ",
+                        "logo": "\/sites\/default\/files\/2024-09\/greek-superleague-hub.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732374000,
+                    "plainTime": "17:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/lamia",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_lamia-min_v2.svg",
+                        "name": "\u039b\u0391\u039c\u0399\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/ofi",
+                        "logo": "\/sites\/default\/files\/2021-01\/ofi.svg",
+                        "name": "\u039f\u03a6\u0397"
+                    },
+                    "gazzetta_url_standings": "\/football\/superleague\/standings",
+                    "live_url": "\/football\/stoiximan-superleague-\/lamia-ofi-23-11-2024",
+                    "event_id": "5561962",
+                    "channel1": {
+                        "name": "CosmoteSport 1",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_1.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Sky Bet EFL Championship",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732374000,
+                    "plainTime": "17:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/oxfornt-gioynaitent",
+                        "logo": "\/sites\/default\/files\/2023-01\/oxford_united_fc_logo.svg.png",
+                        "name": "\u039f\u039e\u03a6\u039f\u03a1\u039d\u03a4 \u0393\u0399\u039f\u03a5\u039d\u0391\u0399\u03a4\u0395\u039d\u03a4"
+                    },
+                    "participant2": {
+                        "url": "\/football\/middlesbrough",
+                        "logo": "\/sites\/default\/files\/2024-01\/800px-middlesbrough_fc_crest.svg.png",
+                        "name": "\u039c\u0399\u039d\u03a4\u039b\u0395\u03a3\u039c\u03a0\u03a1\u039f"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 3",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Cyprus League by Stoiximan",
+                        "logo": "\/sites\/default\/files\/2024-02\/cyprus-first-division_0.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732374000,
+                    "plainTime": "17:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/pafos",
+                        "logo": "\/sites\/default\/files\/2023-08\/pafos_fc_badge.png",
+                        "name": "\u03a0\u0391\u03a6\u039f\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/apoel",
+                        "logo": "\/sites\/default\/files\/2023-09\/apoel_fc_logo.svg.png",
+                        "name": "\u0391\u03a0\u039f\u0395\u039b"
+                    },
+                    "gazzetta_url_standings": "\/football\/protathlima-cyta\/standings",
+                    "live_url": "\/football\/cyprus-league-by-stoiximan\/pafos-apoel-23-11-2024",
+                    "event_id": "5575020",
+                    "channel1": {
+                        "name": "CosmoteSport 7",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_7.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Premier League",
+                        "logo": "\/sites\/default\/files\/2021-01\/premier_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732374000,
+                    "plainTime": "17:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/aston-villa",
+                        "logo": "\/sites\/default\/files\/2023-09\/aston_villa_logo.svg.png",
+                        "name": "\u0391\u03a3\u03a4\u039f\u039d \u0392\u0399\u039b\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/football\/crystal-palace",
+                        "logo": "\/sites\/default\/files\/2023-09\/crystal_palace_fc_logo_2022.svg_1.png",
+                        "name": "\u039a\u03a1\u0399\u03a3\u03a4\u0391\u039b \u03a0\u0391\u039b\u0391\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/football\/premier-league\/standings",
+                    "live_url": "\/football\/premier-league\/aston-vila-kristal-palas-23-11-2024",
+                    "event_id": "5515278",
+                    "channel1": {
+                        "name": "Novasports 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports2a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Premier League",
+                        "logo": "\/sites\/default\/files\/2021-01\/premier_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732374000,
+                    "plainTime": "17:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/bournemouth",
+                        "logo": "\/sites\/default\/files\/2023-09\/afc_bournemouth_2013.svg_1.png",
+                        "name": "\u039c\u03a0\u039f\u03a1\u039d\u039c\u039f\u03a5\u0398"
+                    },
+                    "participant2": {
+                        "url": "\/football\/brighton",
+                        "logo": "\/sites\/default\/files\/2023-09\/brighton_hove_albion_logo.svg_1.png",
+                        "name": "\u039c\u03a0\u03a1\u0391\u0399\u03a4\u039f\u039d"
+                    },
+                    "gazzetta_url_standings": "\/football\/premier-league\/standings",
+                    "live_url": "\/football\/premier-league\/mpornmoyth-mpraiton-23-11-2024",
+                    "event_id": "5515279",
+                    "channel1": {
+                        "name": "Novasports 4",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports4a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Premier League",
+                        "logo": "\/sites\/default\/files\/2021-01\/premier_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732374000,
+                    "plainTime": "17:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/fulham",
+                        "logo": "\/sites\/default\/files\/2023-09\/fulham_fc_shield.svg_1.png",
+                        "name": "\u03a6\u039f\u03a5\u039b\u0391\u039c"
+                    },
+                    "participant2": {
+                        "url": "\/football\/wolves-fc",
+                        "logo": "\/sites\/default\/files\/2023-09\/wolverhampton_wanderers.svg_1.png",
+                        "name": "\u0393\u039f\u03a5\u039b\u0392\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/football\/premier-league\/standings",
+                    "live_url": "\/football\/premier-league\/foylam-goylvs-23-11-2024",
+                    "event_id": "5515281",
+                    "channel1": {
+                        "name": "Novasports 5",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports5a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Premier League",
+                        "logo": "\/sites\/default\/files\/2021-01\/premier_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732374000,
+                    "plainTime": "17:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/everton",
+                        "logo": "\/sites\/default\/files\/2023-09\/everton_fc_logo.svg_1.png",
+                        "name": "\u0395\u0392\u0395\u03a1\u03a4\u039f\u039d"
+                    },
+                    "participant2": {
+                        "url": "\/football\/brentford",
+                        "logo": "\/sites\/default\/files\/2023-09\/brentford_fc_crest.svg_1.png",
+                        "name": "\u039c\u03a0\u03a1\u0395\u039d\u03a4\u03a6\u039f\u03a1\u039d\u03a4"
+                    },
+                    "gazzetta_url_standings": "\/football\/premier-league\/standings",
+                    "live_url": "\/football\/premier-league\/everton-mprentfornt-23-11-2024",
+                    "event_id": "5515280",
+                    "channel1": {
+                        "name": "Novasports Start",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasportsstart.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Premier League",
+                        "logo": "\/sites\/default\/files\/2021-01\/premier_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732374000,
+                    "plainTime": "17:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/arsenal",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_arsenal_fc_v2.svg",
+                        "name": "\u0391\u03a1\u03a3\u0395\u039d\u0391\u039b"
+                    },
+                    "participant2": {
+                        "url": "\/football\/nottingham-forest",
+                        "logo": "\/sites\/default\/files\/2023-09\/nottingham_forest_f.c._logo.svg_1.png",
+                        "name": "\u039d\u039f\u03a4\u0399\u0393\u03a7\u0391\u039c \u03a6\u039f\u03a1\u0395\u03a3\u03a4"
+                    },
+                    "gazzetta_url_standings": "\/football\/premier-league\/standings",
+                    "live_url": "\/football\/premier-league\/arsenal-notigcham-forest-23-11-2024",
+                    "event_id": "5515277",
+                    "channel1": {
+                        "name": "Novasports PL",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports_premier_league1_0.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "La Liga",
+                        "logo": "\/sites\/default\/files\/2021-01\/la_liga-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732374900,
+                    "plainTime": "17:15",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/atletico-madrid",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_atletico_madrid-v2.svg",
+                        "name": "\u0391\u03a4\u039b\u0395\u03a4\u0399\u039a\u039f \u039c\u0391\u0394\u03a1\u0399\u03a4\u0397\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/football\/alaves",
+                        "logo": "\/sites\/default\/files\/2021-01\/deportivo-alaves.svg",
+                        "name": "\u0391\u039b\u0391\u0392\u0395\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/football\/la-liga\/standings",
+                    "live_url": "\/football\/la-liga\/atletiko-madritis-alaves-23-11-2024",
+                    "event_id": "5517064",
+                    "channel1": {
+                        "name": "Novasports 1",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports1a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Volley League",
+                        "logo": "\/sites\/default\/files\/2021-01\/volley_league-min.png"
+                    },
+                    "sport_name": "\u0392\u03cc\u03bb\u03b5\u03ca",
+                    "timestamp": 1732381200,
+                    "plainTime": "19:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/olympiakos",
+                        "logo": "\/sites\/default\/files\/2024-08\/Olympiacos_100_years_logo_1.png",
+                        "name": "\u039f\u039b\u03a5\u039c\u03a0\u0399\u0391\u039a\u039f\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/volleyball\/milonas",
+                        "logo": "\/sites\/default\/files\/2023-03\/milonas_logo_.png",
+                        "name": "\u039c\u0399\u039b\u03a9\u039d\u0391\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/volleyball\/volley-league\/standings",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "ERT 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/ert_2_hd.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Serie A",
+                        "logo": "\/sites\/default\/files\/2021-01\/serie_a-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732381200,
+                    "plainTime": "19:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/milan",
+                        "logo": "\/sites\/default\/files\/2021-01\/milan.svg",
+                        "name": "\u039c\u0399\u039b\u0391\u039d"
+                    },
+                    "participant2": {
+                        "url": "\/football\/juventus",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_juventus_crest_v2.svg",
+                        "name": "\u0393\u0399\u039f\u03a5\u0392\u0395\u039d\u03a4\u039f\u03a5\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/football\/serie-a\/standings",
+                    "live_url": "\/football\/seriea\/milan-gioyventoys-23-11-2024",
+                    "event_id": "5544744",
+                    "channel1": {
+                        "name": "CosmoteSport 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_2.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Roshn Saudi League",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732381200,
+                    "plainTime": "19:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/al-khaliz",
+                        "logo": "\/sites\/default\/files\/2023-08\/khaleej_fc.png",
+                        "name": "\u0391\u039b \u039a\u03a7\u0391\u039b\u0399\u0396"
+                    },
+                    "participant2": {
+                        "url": "\/football\/al-hilal",
+                        "logo": "\/sites\/default\/files\/2023-02\/alhilal_fc.png",
+                        "name": "\u0391\u039b \u03a7\u0399\u039b\u0391\u039b"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "\/saudi-prof.-league\/al-kchaliz-al-chilal-23-11-2024",
+                    "event_id": "5577174",
+                    "channel1": {
+                        "name": "CosmoteSport 9",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_9.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Stoiximan Superleague ",
+                        "logo": "\/sites\/default\/files\/2024-09\/greek-superleague-hub.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732383000,
+                    "plainTime": "19:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/aris",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_aris-min_v2.svg",
+                        "name": "\u0391\u03a1\u0397\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/football\/nps-bolos",
+                        "logo": "\/sites\/default\/files\/2021-01\/volos.svg",
+                        "name": "\u0392\u039f\u039b\u039f\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/football\/superleague\/standings",
+                    "live_url": "\/football\/stoiximan-superleague-\/aris-volos-23-11-2024",
+                    "event_id": "5561958",
+                    "channel1": {
+                        "name": "Novasports Prime",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasportsprime_1.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "La Liga",
+                        "logo": "\/sites\/default\/files\/2021-01\/la_liga-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732383000,
+                    "plainTime": "19:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/girona",
+                        "logo": "\/sites\/default\/files\/2021-01\/girona.svg",
+                        "name": "\u03a7\u0399\u03a1\u039f\u039d\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/football\/espanyol",
+                        "logo": "\/sites\/default\/files\/2021-01\/espanyol.svg",
+                        "name": "\u0395\u03a3\u03a0\u0391\u039d\u0399\u039f\u039b"
+                    },
+                    "gazzetta_url_standings": "\/football\/la-liga\/standings",
+                    "live_url": "\/football\/la-liga\/chirona-espaniol-23-11-2024",
+                    "event_id": "5522731",
+                    "channel1": {
+                        "name": "Novasports 1",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports1a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Bundesliga",
+                        "logo": "\/sites\/default\/files\/2024-10\/bundesliga-min2.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732383000,
+                    "plainTime": "19:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/eintracht-frankfurt",
+                        "logo": "\/sites\/default\/files\/2023-09\/800px-eintracht_frankfurt_logo.svg_1.png",
+                        "name": "\u0391\u0399\u039d\u03a4\u03a1\u0391\u03a7\u03a4 \u03a6\u03a1\u0391\u039d\u039a\u03a6\u039f\u03a5\u03a1\u03a4\u0397\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/football\/werder-bremen",
+                        "logo": "\/sites\/default\/files\/2023-09\/sv-werder-bremen-logo.svg_1.png",
+                        "name": "\u0392\u0395\u03a1\u039d\u03a4\u0395\u03a1 \u0392\u03a1\u0395\u039c\u0397\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/football\/bundesliga\/standings",
+                    "live_url": "\/football\/bundesliga\/aintracht-frankfoyrtis-vernter-vremis-23-11-2024",
+                    "event_id": "5545794",
+                    "channel1": {
+                        "name": "Novasports 3",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports3a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "La Liga",
+                        "logo": "\/sites\/default\/files\/2021-01\/la_liga-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732383000,
+                    "plainTime": "19:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/las-palmas",
+                        "logo": "\/sites\/default\/files\/2021-01\/las_palmas-min.png",
+                        "name": "\u039b\u0391\u03a3 \u03a0\u0391\u039b\u039c\u0391\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/football\/mallorca",
+                        "logo": "\/sites\/default\/files\/2021-01\/mallorca-min.png",
+                        "name": "\u039c\u0391\u0393\u0399\u039f\u03a1\u039a\u0391"
+                    },
+                    "gazzetta_url_standings": "\/football\/la-liga\/standings",
+                    "live_url": "\/football\/la-liga\/las-palmas-magiorka-23-11-2024",
+                    "event_id": "5517067",
+                    "channel1": {
+                        "name": "Novasports 4",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports4a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Premier League",
+                        "logo": "\/sites\/default\/files\/2021-01\/premier_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732383000,
+                    "plainTime": "19:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/manchester-city",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_manchester_city_fc_badge_v2.svg",
+                        "name": "\u039c\u0391\u039d\u03a4\u03a3\u0395\u03a3\u03a4\u0395\u03a1 \u03a3\u0399\u03a4\u0399"
+                    },
+                    "participant2": {
+                        "url": "\/football\/tottenham",
+                        "logo": "\/sites\/default\/files\/2023-09\/tottenham_hotspur.svg_1.png",
+                        "name": "\u03a4\u039f\u03a4\u0395\u039d\u0391\u039c"
+                    },
+                    "gazzetta_url_standings": "\/football\/premier-league\/standings",
+                    "live_url": "\/football\/premier-league\/mantsester-siti-totenam-23-11-2024",
+                    "event_id": "5515284",
+                    "channel1": {
+                        "name": "Novasports PL",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports_premier_league1_0.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "William Hill Scottish Premiership",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732383900,
+                    "plainTime": "19:45",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "",
+                        "logo": "\/sites\/default\/files\/2023-12\/dundee_fc_logo.png",
+                        "name": "\u039d\u03a4\u0391\u039d\u03a4\u0399"
+                    },
+                    "participant2": {
+                        "url": "\/football\/himpernian",
+                        "logo": "\/sites\/default\/files\/2023-08\/hibernian_fc_logo.svg.png",
+                        "name": "\u03a7\u0399\u039c\u03a0\u0395\u03a1\u039d\u0399\u0391\u039d"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 8",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_8.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Eredivisie",
+                        "logo": "\/sites\/default\/files\/2022-09\/220px-eredivisie_nieuw_logo_2017-.svg.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732383900,
+                    "plainTime": "19:45",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/fegenornt",
+                        "logo": "\/sites\/default\/files\/2024-01\/feyenoord_emblem.png",
+                        "name": "\u03a6\u0395\u0393\u0395\u039d\u039f\u03a1\u039d\u03a4"
+                    },
+                    "participant2": {
+                        "url": "\/football\/herenfen",
+                        "logo": "\/sites\/default\/files\/2023-07\/sc_heerenveen_logo.svg.png",
+                        "name": "\u03a7\u0395\u03a1\u0395\u039d\u03a6\u0395\u039d"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "\/eredivisie\/fegenornt-cherenfen-23-11-2024",
+                    "event_id": "5517421",
+                    "channel1": {
+                        "name": "Novasports 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports2a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Bundesliga 2",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732390200,
+                    "plainTime": "21:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/hamburger-sv",
+                        "logo": "\/sites\/default\/files\/2021-01\/hamburger_sv.svg",
+                        "name": "HAMBURGER SV"
+                    },
+                    "participant2": {
+                        "url": "\/football\/schalke",
+                        "logo": "\/sites\/default\/files\/2021-01\/fc-gelsenkirchen-schalke.svg",
+                        "name": "\u03a3\u0391\u039b\u039a\u0395"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "Novasports Start",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasportsstart.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Serie A",
+                        "logo": "\/sites\/default\/files\/2021-01\/serie_a-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732391100,
+                    "plainTime": "21:45",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/parma",
+                        "logo": "\/sites\/default\/files\/2021-01\/parma.svg",
+                        "name": "\u03a0\u0391\u03a1\u039c\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/football\/atalanta",
+                        "logo": "\/sites\/default\/files\/2021-01\/atalanta.svg",
+                        "name": "\u0391\u03a4\u0391\u039b\u0391\u039d\u03a4\u0391"
+                    },
+                    "gazzetta_url_standings": "\/football\/serie-a\/standings",
+                    "live_url": "\/football\/seriea\/parma-atalanta-23-11-2024",
+                    "event_id": "5544750",
+                    "channel1": {
+                        "name": "CosmoteSport 1",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_1.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "William Hill Scottish Premiership",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732391100,
+                    "plainTime": "21:45",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/harts",
+                        "logo": "\/sites\/default\/files\/2023-08\/heart_of_midlothian_fc_logo.svg.png",
+                        "name": "\u03a7\u0391\u03a1\u03a4\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/football\/celtic",
+                        "logo": "\/sites\/default\/files\/2024-01\/celtic_fc_emblem.png",
+                        "name": "\u03a3\u0395\u039b\u03a4\u0399\u039a"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_2.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Jupiler League \u0392\u03ad\u03bb\u03b3\u03b9\u03bf",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732391100,
+                    "plainTime": "21:45",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/krc-genk",
+                        "logo": "\/sites\/default\/files\/2024-01\/krc_genk_logo_emblem.png",
+                        "name": "\u0393\u039a\u0395\u039d\u039a"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/sarleroya",
+                        "logo": "\/sites\/default\/files\/2023-07\/royal_charleroi_sporting_club_logo.svg.png",
+                        "name": "\u03a3\u0391\u03a1\u039b\u0395\u03a1\u039f\u03a5\u0391"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "Novasports 4",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports4a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Copa Sudamericana",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732392000,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/rasingk-kloymp",
+                        "logo": "\/sites\/default\/files\/2023-06\/escudo_de_racing_club_2014.svg.png",
+                        "name": "\u03a1\u0391\u03a3\u0399\u039d\u0393\u039a \u039a\u039b\u039f\u03a5\u039c\u03a0"
+                    },
+                    "participant2": {
+                        "url": "",
+                        "logo": "\/sites\/default\/files\/2024-08\/cruzeiro_esporte_clube_logo.svg.png",
+                        "name": "\u039a\u03a1\u039f\u03a5\u0396\u0395\u03aa\u03a1\u039f"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "\/copa-sudamericana\/rasingk-kloymp-kroyzeiro-23-11-2024",
+                    "event_id": "5747954",
+                    "channel1": {
+                        "name": "CosmoteSport 3",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "La Liga",
+                        "logo": "\/sites\/default\/files\/2021-01\/la_liga-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732392000,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/celta",
+                        "logo": "\/sites\/default\/files\/2021-01\/celta.svg",
+                        "name": "\u0398\u0395\u039b\u03a4\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/barcelona",
+                        "logo": "\/sites\/default\/files\/2021-01\/barcelona_0.svg",
+                        "name": "\u039c\u03a0\u0391\u03a1\u03a4\u03a3\u0395\u039b\u039f\u039d\u0391"
+                    },
+                    "gazzetta_url_standings": "\/football\/la-liga\/standings",
+                    "live_url": "\/football\/la-liga\/thelta-mpartselona-23-11-2024",
+                    "event_id": "5517065",
+                    "channel1": {
+                        "name": "Novasports 1",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports1a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Eredivisie",
+                        "logo": "\/sites\/default\/files\/2022-09\/220px-eredivisie_nieuw_logo_2017-.svg.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732392000,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/psv-eindhoven",
+                        "logo": "\/sites\/default\/files\/2021-01\/psv_eindhoven.svg",
+                        "name": "\u0391\u0399\u039d\u03a4\u03a7\u039f\u03a6\u0395\u039d"
+                    },
+                    "participant2": {
+                        "url": "\/football\/groningen",
+                        "logo": "\/sites\/default\/files\/2021-01\/groningen.svg",
+                        "name": "GRONINGEN"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "\/eredivisie\/aintchofen-gkroningken-23-11-2024",
+                    "event_id": "5517419",
+                    "channel1": {
+                        "name": "Novasports 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports2a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                }
+            ],
+            "dateData": {
+                "dateDate": "23",
+                "dateMonth": "11",
+                "dateDay": "\u03a3\u03ac\u03b2\u03b2\u03b1\u03c4\u03bf",
+                "eventsNum": 46
+            }
+        },
+        "24\/11": {
+            "events": [
+                {
+                    "league": {
+                        "name": "NBA",
+                        "logo": "\/sites\/default\/files\/2021-01\/nba.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732399200,
+                    "plainTime": "00:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/basketball\/utah-jazz",
+                        "logo": "\/sites\/default\/files\/2023-09\/utah_jazz_logo_2022.svg_1.png",
+                        "name": "\u0393\u0399\u039f\u03a5\u03a4\u0391 \u03a4\u0396\u0391\u0396"
+                    },
+                    "participant2": {
+                        "url": "\/basketball\/new-york-knicks",
+                        "logo": "\/sites\/default\/files\/2023-09\/new_york_knicks_logo.svg_1.png",
+                        "name": "\u039d\u0399\u039f\u03a5 \u0393\u0399\u039f\u03a1\u039a \u039d\u0399\u039a\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/basketball\/nba\/standings",
+                    "live_url": "\/basketball\/nba\/gioyta-tzaz-nioy-giork-niks-24-11-2024",
+                    "event_id": "5630755",
+                    "channel1": {
+                        "name": "CosmoteSport 4",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_4.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "NBA",
+                        "logo": "\/sites\/default\/files\/2021-01\/nba.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732410000,
+                    "plainTime": "03:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/basketball\/milwaukee-bucks",
+                        "logo": "\/sites\/default\/files\/2023-09\/milwaukee_bucks_logo.svg_1.png",
+                        "name": "\u039c\u0399\u039b\u0393\u039f\u03a5\u039f\u039a\u0399 \u039c\u03a0\u0391\u039a\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/basketball\/charlotte-hornets",
+                        "logo": "\/sites\/default\/files\/2023-09\/charlotte_hornets_2014.svg_1.png",
+                        "name": "\u03a3\u0391\u03a1\u039b\u039f\u03a4 \u03a7\u039f\u03a1\u039d\u0395\u03a4\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/basketball\/nba\/standings",
+                    "live_url": "\/basketball\/nba\/milgoyoki-mpaks-sarlot-chornets-24-11-2024",
+                    "event_id": "5630759",
+                    "channel1": {
+                        "name": "CosmoteSport 7",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_7.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Superleague 2",
+                        "logo": "\/sites\/default\/files\/2024-02\/superleague2.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732442400,
+                    "plainTime": "12:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/iraklis",
+                        "logo": "\/sites\/default\/files\/2023-09\/newlogoiraklis.png",
+                        "name": "\u0397\u03a1\u0391\u039a\u039b\u0397\u03a3"
+                    },
+                    "participant2": {
+                        "url": "",
+                        "logo": "\/sites\/default\/files\/2024-11\/paok_fc_logo.png",
+                        "name": "\u03a0\u0391\u039f\u039a \u0392\u0027"
+                    },
+                    "gazzetta_url_standings": "\/football\/superleague-2\/standings",
+                    "live_url": "\/football\/superleague-2\/iraklis-paok-v-24-11-2024",
+                    "event_id": "5696194",
+                    "channel1": {
+                        "name": "SKAI",
+                        "logo": "\/sites\/default\/files\/2023-08\/skai.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Serie A",
+                        "logo": "\/sites\/default\/files\/2021-01\/serie_a-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732447800,
+                    "plainTime": "13:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/genoa",
+                        "logo": "\/sites\/default\/files\/2023-09\/genoa_c.f.c._logo_1.png",
+                        "name": "\u03a4\u0396\u0395\u039d\u039f\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/football\/cagliari",
+                        "logo": "\/sites\/default\/files\/2021-01\/cagliari-calcio-.svg",
+                        "name": "\u039a\u0391\u039b\u0399\u0391\u03a1\u0399"
+                    },
+                    "gazzetta_url_standings": "\/football\/serie-a\/standings",
+                    "live_url": "\/football\/seriea\/tzenoa-kaliari-24-11-2024",
+                    "event_id": "5544747",
+                    "channel1": {
+                        "name": "CosmoteSport 3",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "\u03911 \u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4 \u0393\u03c5\u03bd\u03b1\u03b9\u03ba\u03ce\u03bd",
+                        "logo": "\/sites\/default\/files\/2021-01\/a1_women-min-min.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732447800,
+                    "plainTime": "13:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "",
+                        "logo": "\/modules\/custom\/wstats\/assets\/img\/default-logo.png",
+                        "name": "\u03a0\u0391\u039d\u0391\u0398\u039b\u0397\u03a4\u0399\u039a\u039f\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/panathinaikos",
+                        "logo": "\/sites\/default\/files\/2024-05\/pao-logo-200x200_1.png",
+                        "name": "\u03a0\u0391\u039d\u0391\u0398\u0397\u039d\u0391\u0399\u039a\u039f\u03a3"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "ERT SPORTS 1",
+                        "logo": "\/sites\/default\/files\/2023-10\/100px-ertsports1.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Bundesliga 2",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732451400,
+                    "plainTime": "14:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/kaizerslaoytern",
+                        "logo": "\/sites\/default\/files\/2023-06\/logo_1_fc_kaiserslautern.svg.png",
+                        "name": "\u039a\u0391\u0399\u0396\u0395\u03a1\u03a3\u039b\u0391\u039f\u03a5\u03a4\u0395\u03a1\u039d"
+                    },
+                    "participant2": {
+                        "url": "\/football\/mpraoynsbaigk",
+                        "logo": "\/sites\/default\/files\/2024-07\/logo_eintracht_braunschweig.svg.png",
+                        "name": "\u039c\u03a0\u03a1\u0391\u039f\u03a5\u039d\u03a3\u0392\u0391\u0399\u0393\u039a"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "Novasports 3",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports3a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Jupiler League \u0392\u03ad\u03bb\u03b3\u03b9\u03bf",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732451400,
+                    "plainTime": "14:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/malin",
+                        "logo": "\/sites\/default\/files\/2024-07\/800px-kv_mechelen_logo.svg.png",
+                        "name": "\u039c\u0391\u039b\u0399\u039d"
+                    },
+                    "participant2": {
+                        "url": "",
+                        "logo": "\/modules\/custom\/wstats\/assets\/img\/default-logo.png",
+                        "name": "\u039c\u03a0\u0399\u03a1\u03a3\u03a7\u039f\u03a4"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "Novasports Start",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasportsstart.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "La Liga",
+                        "logo": "\/sites\/default\/files\/2021-01\/la_liga-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732453200,
+                    "plainTime": "15:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/osasuna",
+                        "logo": "\/sites\/default\/files\/2021-01\/osasuna.svg",
+                        "name": "\u039f\u03a3\u0391\u03a3\u039f\u03a5\u039d\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/football\/villarreal",
+                        "logo": "\/sites\/default\/files\/2021-01\/villarreal.svg",
+                        "name": "\u0392\u0399\u0393\u0399\u0391\u03a1\u0395\u0391\u039b"
+                    },
+                    "gazzetta_url_standings": "\/football\/la-liga\/standings",
+                    "live_url": "\/football\/la-liga\/osasoyna-vigiareal-24-11-2024",
+                    "event_id": "5517069",
+                    "channel1": {
+                        "name": "Novasports 1",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports1a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Premier League",
+                        "logo": "\/sites\/default\/files\/2021-01\/premier_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732456800,
+                    "plainTime": "16:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/southampton",
+                        "logo": "\/sites\/default\/files\/2021-01\/southampton-fc.svg",
+                        "name": "\u03a3\u0391\u039f\u03a5\u0398\u0391\u039c\u03a0\u03a4\u039f\u039d"
+                    },
+                    "participant2": {
+                        "url": "\/football\/liverpool",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_liverpool_fc_v2.svg",
+                        "name": "\u039b\u0399\u0392\u0395\u03a1\u03a0\u039f\u03a5\u039b"
+                    },
+                    "gazzetta_url_standings": "\/football\/premier-league\/standings",
+                    "live_url": "\/football\/premier-league\/saoythampton-liverpoyl-24-11-2024",
+                    "event_id": "5515286",
+                    "channel1": {
+                        "name": "Novasports PL",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports_premier_league1_0.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Serie A",
+                        "logo": "\/sites\/default\/files\/2021-01\/serie_a-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732456800,
+                    "plainTime": "16:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/komo",
+                        "logo": "\/sites\/default\/files\/2024-08\/190px-logo_como_1907_-_2019.svg.png",
+                        "name": "\u039a\u039f\u039c\u039f"
+                    },
+                    "participant2": {
+                        "url": "\/football\/fiorentina",
+                        "logo": "\/sites\/default\/files\/2023-09\/2022_acf_fiorentina_logo.svg_1.png",
+                        "name": "\u03a6\u0399\u039f\u03a1\u0395\u039d\u03a4\u0399\u039d\u0391"
+                    },
+                    "gazzetta_url_standings": "\/football\/serie-a\/standings",
+                    "live_url": "\/football\/seriea\/komo-fiorentina-24-11-2024",
+                    "event_id": "5544745",
+                    "channel1": {
+                        "name": "CosmoteSport 3",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Serie A",
+                        "logo": "\/sites\/default\/files\/2021-01\/serie_a-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732456800,
+                    "plainTime": "16:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/torino",
+                        "logo": "\/sites\/default\/files\/2021-01\/torino.svg",
+                        "name": "\u03a4\u039f\u03a1\u0399\u039d\u039f"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/montsa",
+                        "logo": "\/sites\/default\/files\/2023-09\/associazione_calcio_monza_2019.svg.png",
+                        "name": "\u039c\u039f\u039d\u03a4\u03a3\u0391"
+                    },
+                    "gazzetta_url_standings": "\/football\/serie-a\/standings",
+                    "live_url": "\/football\/seriea\/torino-montsa-24-11-2024",
+                    "event_id": "5544751",
+                    "channel1": {
+                        "name": "CosmoteSport 5",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_5.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Bundesliga",
+                        "logo": "\/sites\/default\/files\/2024-10\/bundesliga-min2.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732458600,
+                    "plainTime": "16:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/holstain-kiel",
+                        "logo": "\/sites\/default\/files\/2023-06\/holstein_kiel_logo.svg.png",
+                        "name": "\u03a7\u039f\u039b\u03a3\u03a4\u0391\u0399\u039d \u039a\u0399\u0395\u039b"
+                    },
+                    "participant2": {
+                        "url": "\/football\/mainz",
+                        "logo": "\/sites\/default\/files\/2023-09\/logo_mainz_05.svg_1.png",
+                        "name": "\u039c\u0391\u0399\u039d\u03a4\u0396"
+                    },
+                    "gazzetta_url_standings": "\/football\/bundesliga\/standings",
+                    "live_url": "\/football\/bundesliga\/cholstain-kiel-maintz-24-11-2024",
+                    "event_id": "5545796",
+                    "channel1": {
+                        "name": "Novasports Prime",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasportsprime_1.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Davis Cup",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a4\u03ad\u03bd\u03bd\u03b9\u03c2",
+                    "timestamp": 1732460400,
+                    "plainTime": "17:00",
+                    "event_text": "\u03a4\u03b5\u03bb\u03b9\u03ba\u03cc\u03c2",
+                    "gazzetta_url_standings": "\/tennis\/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "Novasports 6",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports6a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "\u03a0\u03c1\u03bf\u03ba\u03c1\u03b9\u03bc\u03b1\u03c4\u03b9\u03ba\u03ac Eurobasket",
+                        "logo": "\/sites\/default\/files\/2021-01\/eurobasket-min.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732460400,
+                    "plainTime": "17:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/georgia",
+                        "logo": "\/sites\/default\/files\/2023-06\/georgia_640.png",
+                        "name": "\u0393\u0395\u03a9\u03a1\u0393\u0399\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/finlandia",
+                        "logo": "\/sites\/default\/files\/2023-06\/finland_640.png",
+                        "name": "\u03a6\u0399\u039d\u039b\u0391\u039d\u0394\u0399\u0391"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "\/basketball\/prokrimatika-eurobasket\/georgia-finlandia-24-11-2024",
+                    "event_id": "5147453",
+                    "channel1": {
+                        "name": "Novasports 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports2a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Stoiximan Superleague ",
+                        "logo": "\/sites\/default\/files\/2024-09\/greek-superleague-hub.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732460400,
+                    "plainTime": "17:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/panaitolikos",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_panaitolikos-min_v2.svg",
+                        "name": "\u03a0\u0391\u039d\u0391\u0399\u03a4\u03a9\u039b\u0399\u039a\u039f\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/panathinaikos",
+                        "logo": "\/sites\/default\/files\/2021-01\/panathinaikos.svg",
+                        "name": "\u03a0\u0391\u039d\u0391\u0398\u0397\u039d\u0391\u0399\u039a\u039f\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/football\/superleague\/standings",
+                    "live_url": "\/football\/stoiximan-superleague-\/panaitolikos-panathinaikos-24-11-2024",
+                    "event_id": "5561964",
+                    "channel1": {
+                        "name": "CosmoteSport 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_2.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Championship",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732460400,
+                    "plainTime": "17:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/swansea-city",
+                        "logo": "\/sites\/default\/files\/2021-01\/swansea_city.svg",
+                        "name": "SWANSEA CITY"
+                    },
+                    "participant2": {
+                        "url": "\/football\/leeds",
+                        "logo": "\/sites\/default\/files\/2021-01\/leeds-united-afc-3.svg",
+                        "name": "\u039b\u0399\u039d\u03a4\u03a3"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "La Liga",
+                        "logo": "\/sites\/default\/files\/2021-01\/la_liga-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732461300,
+                    "plainTime": "17:15",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/sevilla",
+                        "logo": "\/sites\/default\/files\/2021-01\/sevilla.svg",
+                        "name": "\u03a3\u0395\u0392\u0399\u039b\u039b\u0397"
+                    },
+                    "participant2": {
+                        "url": "\/football\/rayo-vallecano",
+                        "logo": "\/sites\/default\/files\/2021-01\/rayo_vallecano.svg",
+                        "name": "\u03a1\u0391\u0393\u0399\u039f \u0392\u0391\u0393\u0399\u0395\u039a\u0391\u039d\u039f"
+                    },
+                    "gazzetta_url_standings": "\/football\/la-liga\/standings",
+                    "live_url": "\/football\/la-liga\/sevilli-ragio-vagiekano-24-11-2024",
+                    "event_id": "5517070",
+                    "channel1": {
+                        "name": "Novasports 1",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports1a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Eredivisie",
+                        "logo": "\/sites\/default\/files\/2022-09\/220px-eredivisie_nieuw_logo_2017-.svg.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732463100,
+                    "plainTime": "17:45",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/ajax",
+                        "logo": "\/sites\/default\/files\/2021-01\/ajax.svg",
+                        "name": "\u0391\u0393\u0399\u0391\u039e"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/tsbole",
+                        "logo": "\/sites\/default\/files\/2023-08\/pec_zwolle_logo.svg.png",
+                        "name": "\u03a4\u03a3\u0392\u039f\u039b\u0395"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "Novasports Extra 1",
+                        "logo": "\/sites\/default\/files\/2023-09\/nova_sports_extra1_0.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "\u03a0\u03c1\u03bf\u03ba\u03c1\u03b9\u03bc\u03b1\u03c4\u03b9\u03ba\u03ac Eurobasket",
+                        "logo": "\/sites\/default\/files\/2021-01\/eurobasket-min.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732464000,
+                    "plainTime": "18:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/gallia",
+                        "logo": "\/sites\/default\/files\/2023-06\/france_640.png",
+                        "name": "\u0393\u0391\u039b\u039b\u0399\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/kypros",
+                        "logo": "\/sites\/default\/files\/2023-11\/flag_of_cyprus.svg.png",
+                        "name": "\u039a\u03a5\u03a0\u03a1\u039f\u03a3"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "\/basketball\/prokrimatika-eurobasket\/gallia-kypros-24-11-2024",
+                    "event_id": "5147452",
+                    "channel1": {
+                        "name": "Novasports Start",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasportsstart.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Premier League",
+                        "logo": "\/sites\/default\/files\/2021-01\/premier_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732465800,
+                    "plainTime": "18:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/ipswich",
+                        "logo": "\/sites\/default\/files\/2024-08\/156px-ipswich_town.svg.png",
+                        "name": "\u0399\u03a0\u03a3\u039f\u03a5\u0399\u03a4\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/football\/manchester-united",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_manchester_united_fc_crest_v2.svg",
+                        "name": "\u039c\u0391\u039d\u03a4\u03a3\u0395\u03a3\u03a4\u0395\u03a1 \u0393\u0399\u039f\u03a5\u039d\u0391\u0399\u03a4\u0395\u039d\u03a4"
+                    },
+                    "gazzetta_url_standings": "\/football\/premier-league\/standings",
+                    "live_url": "\/football\/premier-league\/ipsoyits-mantsester-gioynaitent-24-11-2024",
+                    "event_id": "5515282",
+                    "channel1": {
+                        "name": "Novasports PL",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports_premier_league1_0.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "\u03a0\u03c1\u03bf\u03ba\u03c1\u03b9\u03bc\u03b1\u03c4\u03b9\u03ba\u03ac Eurobasket",
+                        "logo": "\/sites\/default\/files\/2021-01\/eurobasket-min.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732465800,
+                    "plainTime": "18:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/ellada",
+                        "logo": "\/sites\/default\/files\/2023-06\/greece_640_0.png",
+                        "name": "\u0395\u039b\u039b\u0391\u0394\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/megali-bretania",
+                        "logo": "\/sites\/default\/files\/2023-06\/flag-3d-round-250.png",
+                        "name": "\u039c\u0395\u0393\u0391\u039b\u0397 \u0392\u03a1\u0395\u03a4\u0391\u039d\u0399\u0391"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "\/basketball\/prokrimatika-eurobasket\/ellada-megali-vretania-24-11-2024",
+                    "event_id": "5147454",
+                    "channel1": {
+                        "name": "Novasports 4",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports4a.png"
+                    },
+                    "channel2": {
+                        "name": "ERT 3",
+                        "logo": "\/sites\/default\/files\/2023-08\/ert_3_hd.png"
+                    }
+                },
+                {
+                    "league": {
+                        "name": "\u03a0\u03c1\u03bf\u03ba\u03c1\u03b9\u03bc\u03b1\u03c4\u03b9\u03ba\u03ac Eurobasket",
+                        "logo": "\/sites\/default\/files\/2021-01\/eurobasket-min.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732467600,
+                    "plainTime": "19:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/bosnia-erzegobini",
+                        "logo": "\/sites\/default\/files\/2023-06\/bosnia_and_herzegovina_640_0.png",
+                        "name": "\u0392\u039f\u03a3\u039d\u0399\u0391 \u0395\u03a1\u0396\u0395\u0393\u039f\u0392\u0399\u039d\u0397"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/kroatia",
+                        "logo": "\/sites\/default\/files\/2023-06\/croatia_640_0.png",
+                        "name": "\u039a\u03a1\u039f\u0391\u03a4\u0399\u0391"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "\/basketball\/prokrimatika-eurobasket\/vosnia-erzegovini-kroatia-24-11-2024",
+                    "event_id": "5147450",
+                    "channel1": {
+                        "name": "Novasports 5",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports5a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Serie A",
+                        "logo": "\/sites\/default\/files\/2021-01\/serie_a-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732467600,
+                    "plainTime": "19:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/napoli",
+                        "logo": "\/sites\/default\/files\/2021-01\/napoli.svg",
+                        "name": "\u039d\u0391\u03a0\u039f\u039b\u0399"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/roma",
+                        "logo": "\/sites\/default\/files\/2021-01\/roma-min.png",
+                        "name": "\u03a1\u039f\u039c\u0391"
+                    },
+                    "gazzetta_url_standings": "\/football\/serie-a\/standings",
+                    "live_url": "\/football\/seriea\/napoli-roma-24-11-2024",
+                    "event_id": "5544749",
+                    "channel1": {
+                        "name": "CosmoteSport 3",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Saudi League",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732467600,
+                    "plainTime": "19:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/al-itihant",
+                        "logo": "\/sites\/default\/files\/2023-06\/155px-ittihad_fc_logo_282015_29.png",
+                        "name": "\u0391\u039b \u0399\u03a4\u0399\u03a7\u0391\u039d\u03a4"
+                    },
+                    "participant2": {
+                        "url": "\/football\/al-fateh",
+                        "logo": "\/sites\/default\/files\/2023-02\/al-fateh_fc_logo.png",
+                        "name": "\u0391\u039b \u03a6\u0391\u03a4\u0395\u03a7"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 7",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_7.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Volley League \u0393\u03c5\u03bd\u03b1\u03b9\u03ba\u03ce\u03bd",
+                        "logo": "\/sites\/default\/files\/2021-01\/volley_league_women-min.png"
+                    },
+                    "sport_name": "\u0392\u03cc\u03bb\u03b5\u03ca",
+                    "timestamp": 1732467600,
+                    "plainTime": "19:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/volleyball\/ao-markopoyloy-g",
+                        "logo": "\/sites\/default\/files\/2023-11\/28.png",
+                        "name": "\u0391\u039f \u039c\u0391\u03a1\u039a\u039f\u03a0\u039f\u03a5\u039b\u039f\u03a5 (\u0393)"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/panathinaikos",
+                        "logo": "\/sites\/default\/files\/2021-05\/pao-other.png",
+                        "name": "\u03a0\u0391\u039d\u0391\u0398\u0397\u039d\u0391\u0399\u039a\u039f\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/volleyball\/volley-league-gynaikon\/standings",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "ERT 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/ert_2_hd.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Stoiximan Superleague ",
+                        "logo": "\/sites\/default\/files\/2024-09\/greek-superleague-hub.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732469400,
+                    "plainTime": "19:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/asteras-tripolis",
+                        "logo": "\/sites\/default\/files\/2024-09\/asteras-01.svg",
+                        "name": "\u0391\u03a3\u03a4\u0395\u03a1\u0391\u03a3 \u03a4\u03a1\u0399\u03a0\u039f\u039b\u0397\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/paok",
+                        "logo": "\/sites\/default\/files\/2021-01\/paok.svg",
+                        "name": "\u03a0\u0391\u039f\u039a"
+                    },
+                    "gazzetta_url_standings": "\/football\/superleague\/standings",
+                    "live_url": "\/football\/stoiximan-superleague-\/asteras-tripolis-paok-24-11-2024",
+                    "event_id": "5561959",
+                    "channel1": {
+                        "name": "Novasports Prime",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasportsprime_1.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "La Liga",
+                        "logo": "\/sites\/default\/files\/2021-01\/la_liga-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732469400,
+                    "plainTime": "19:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/leganes",
+                        "logo": "\/sites\/default\/files\/2021-01\/cd-leganes.svg",
+                        "name": "\u039b\u0395\u0393\u039a\u0391\u039d\u0395\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/real-madrid",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_real_madrid_cf_v2.svg",
+                        "name": "\u03a1\u0395\u0391\u039b \u039c\u0391\u0394\u03a1\u0399\u03a4\u0397\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/football\/la-liga\/standings",
+                    "live_url": "\/football\/la-liga\/legkanes-real-madritis-24-11-2024",
+                    "event_id": "5517068",
+                    "channel1": {
+                        "name": "Novasports 1",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports1a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Jupiler League \u0392\u03ad\u03bb\u03b3\u03b9\u03bf",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732469400,
+                    "plainTime": "19:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/anderlecht",
+                        "logo": "\/sites\/default\/files\/2021-01\/anderlecht.svg",
+                        "name": "\u0391\u039d\u03a4\u0395\u03a1\u039b\u0395\u03a7\u03a4"
+                    },
+                    "participant2": {
+                        "url": "\/football\/gent",
+                        "logo": "\/sites\/default\/files\/2021-01\/gent.svg",
+                        "name": "\u0393\u0391\u039d\u0394\u0397"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "Novasports 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports2a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Stoiximan Superleague ",
+                        "logo": "\/sites\/default\/files\/2024-09\/greek-superleague-hub.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732473000,
+                    "plainTime": "20:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/olympiakos",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_Olympiacos_100_years_logo_v2.svg",
+                        "name": "\u039f\u039b\u03a5\u039c\u03a0\u0399\u0391\u039a\u039f\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/aek",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_aekfc_100years_logo_v2.svg",
+                        "name": "\u0391\u0395\u039a"
+                    },
+                    "gazzetta_url_standings": "\/football\/superleague\/standings",
+                    "live_url": "\/football\/stoiximan-superleague-\/olympiakos-aek-24-11-2024",
+                    "event_id": "5561963",
+                    "channel1": {
+                        "name": "CosmoteSport 1",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_1.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Serie A",
+                        "logo": "\/sites\/default\/files\/2021-01\/serie_a-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732477500,
+                    "plainTime": "21:45",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/lazio",
+                        "logo": "\/sites\/default\/files\/2021-01\/lazio.svg",
+                        "name": "\u039b\u0391\u03a4\u03a3\u0399\u039f"
+                    },
+                    "participant2": {
+                        "url": "\/football\/bologna",
+                        "logo": "\/sites\/default\/files\/2021-01\/bologna-min.png",
+                        "name": "\u039c\u03a0\u039f\u039b\u039f\u039d\u0399\u0391"
+                    },
+                    "gazzetta_url_standings": "\/football\/serie-a\/standings",
+                    "live_url": "\/football\/seriea\/latsio-mpolonia-24-11-2024",
+                    "event_id": "5544748",
+                    "channel1": {
+                        "name": "CosmoteSport 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_2.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "La Liga",
+                        "logo": "\/sites\/default\/files\/2021-01\/la_liga-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732478400,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/athletic-bilbao",
+                        "logo": "\/sites\/default\/files\/2021-01\/athletic_bilbao.svg",
+                        "name": "\u0391\u0398\u039b\u0395\u03a4\u0399\u039a \u039c\u03a0\u0399\u039b\u039c\u03a0\u0391\u039f"
+                    },
+                    "participant2": {
+                        "url": "\/football\/real-sociedad",
+                        "logo": "\/sites\/default\/files\/2021-01\/real_sociedad_logo.svg",
+                        "name": "\u03a1\u0395\u0391\u039b \u03a3\u039f\u03a3\u0399\u0395\u0394\u0391\u0394"
+                    },
+                    "gazzetta_url_standings": "\/football\/la-liga\/standings",
+                    "live_url": "\/football\/la-liga\/athletik-mpilmpao-real-sosiedad-24-11-2024",
+                    "event_id": "5517063",
+                    "channel1": {
+                        "name": "Novasports 1",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports1a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "NBA",
+                        "logo": "\/sites\/default\/files\/2021-01\/nba.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732480200,
+                    "plainTime": "22:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/basketball\/boston-celtics",
+                        "logo": "\/sites\/default\/files\/2023-09\/boston_celtics.svg_1.png",
+                        "name": "\u039c\u03a0\u039f\u03a3\u03a4\u039f\u039d \u03a3\u0395\u039b\u03a4\u0399\u039a\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/basketball\/minnesota-timberwolves",
+                        "logo": "\/sites\/default\/files\/2023-09\/minnesota_timberwolves_logo.svg_1.png",
+                        "name": "\u039c\u0399\u039d\u0395\u03a3\u039f\u03a4\u0391 \u03a4\u0399\u039c\u03a0\u0395\u03a1\u0393\u039f\u03a5\u039b\u0392\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/basketball\/nba\/standings",
+                    "live_url": "\/basketball\/nba\/mposton-seltiks-minesota-timpergoylvs-24-11-2024",
+                    "event_id": "5630762",
+                    "channel1": {
+                        "name": "CosmoteSport 4",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_4.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                }
+            ],
+            "dateData": {
+                "dateDate": "24",
+                "dateMonth": "11",
+                "dateDay": "\u039a\u03c5\u03c1\u03b9\u03b1\u03ba\u03ae",
+                "eventsNum": 32
+            }
+        },
+        "25\/11": {
+            "events": [
+                {
+                    "league": {
+                        "name": "NBA",
+                        "logo": "\/sites\/default\/files\/2021-01\/nba.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732489200,
+                    "plainTime": "01:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/basketball\/philadelphia-76ers",
+                        "logo": "\/sites\/default\/files\/2023-09\/philadelphia_76ers_logo.svg_1.png",
+                        "name": "\u03a6\u0399\u039b\u0391\u0394\u0395\u039b\u03a6\u0395\u0399\u0391 \u03a3\u0399\u039e\u0395\u03a1\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/basketball\/los-angeles-clippers",
+                        "logo": "\/sites\/default\/files\/2023-09\/los_angeles_clippers_2015.svg_1.png",
+                        "name": "\u039b\u039f\u03a3 \u0391\u039d\u03a4\u0396\u0395\u039b\u0395\u03a3 \u039a\u039b\u0399\u03a0\u0395\u03a1\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/basketball\/nba\/standings",
+                    "live_url": "\/basketball\/nba\/filadelfeia-siksers-los-antzeles-klipers-25-11-2024",
+                    "event_id": "5630765",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "NBA",
+                        "logo": "\/sites\/default\/files\/2021-01\/nba.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732494600,
+                    "plainTime": "02:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/basketball\/cleveland-cavaliers",
+                        "logo": "\/sites\/default\/files\/2023-09\/cleveland_cavaliers_logo.svg_1.png",
+                        "name": "\u039a\u039b\u0399\u0392\u0395\u039b\u0391\u039d\u03a4 \u039a\u0391\u0392\u0391\u039b\u0399\u0395\u03a1\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/basketball\/toronto-raptors",
+                        "logo": "\/sites\/default\/files\/2023-09\/toronto_raptors_logo.svg_1.png",
+                        "name": "\u03a4\u039f\u03a1\u039f\u039d\u03a4\u039f \u03a1\u0391\u03a0\u03a4\u039f\u03a1\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/basketball\/nba\/standings",
+                    "live_url": "\/basketball\/nba\/klivelant-kavaliers-toronto-raptors-25-11-2024",
+                    "event_id": "5630766",
+                    "channel1": {
+                        "name": "CosmoteSport 7",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_7.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "NFL",
+                        "logo": "\/sites\/default\/files\/2022-04\/national_football_league_logo.svg.png"
+                    },
+                    "sport_name": "\u0391\u03bc\u03b5\u03c1\u03b9\u03ba\u03ac\u03bd\u03b9\u03ba\u03bf \u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732497600,
+                    "plainTime": "03:20",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "",
+                        "logo": "\/sites\/default\/files\/2023-09\/los_angeles_rams_logo.svg.png",
+                        "name": "\u039b\u039f\u03a3 \u0391\u039d\u03a4\u0396\u0395\u039b\u0395\u03a3 \u03a1\u0391\u039c\u03a3"
+                    },
+                    "participant2": {
+                        "url": "",
+                        "logo": "\/sites\/default\/files\/2023-09\/philadelphia_eagles_logo.svg.png",
+                        "name": "\u03a6\u0399\u039b\u0391\u0394\u0395\u039b\u03a6\u0395\u0399\u0391 \u0399\u039d\u0393\u039a\u039b\u03a3"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 9",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_9.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Stoiximan Superleague ",
+                        "logo": "\/sites\/default\/files\/2024-09\/greek-superleague-hub.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732550400,
+                    "plainTime": "18:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/atromitos-athinon",
+                        "logo": "\/sites\/default\/files\/2021-01\/atromitos.svg",
+                        "name": "\u0391\u03a4\u03a1\u039f\u039c\u0397\u03a4\u039f\u03a3 \u0391\u0398\u0397\u039d\u03a9\u039d"
+                    },
+                    "participant2": {
+                        "url": "\/football\/lebadeiakos",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_apo_levadiakos_logo_v2.svg",
+                        "name": "\u039b\u0395\u0392\u0391\u0394\u0395\u0399\u0391\u039a\u039f\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/football\/superleague\/standings",
+                    "live_url": "\/football\/stoiximan-superleague-\/atromitos-athinvn-levadeiakos-25-11-2024",
+                    "event_id": "5561961",
+                    "channel1": {
+                        "name": "Novasports Prime",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasportsprime_1.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "\u03a0\u03c1\u03bf\u03ba\u03c1\u03b9\u03bc\u03b1\u03c4\u03b9\u03ba\u03ac Eurobasket",
+                        "logo": "\/sites\/default\/files\/2021-01\/eurobasket-min.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732554000,
+                    "plainTime": "19:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/oyggaria",
+                        "logo": "\/sites\/default\/files\/2023-06\/hungary_640_0.png",
+                        "name": "\u039f\u03a5\u0393\u0393\u0391\u03a1\u0399\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/toyrkia",
+                        "logo": "\/sites\/default\/files\/2023-06\/turkey_640.png",
+                        "name": "\u03a4\u039f\u03a5\u03a1\u039a\u0399\u0391"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "\/basketball\/prokrimatika-eurobasket\/oyggaria-toyrkia-25-11-2024",
+                    "event_id": "5147461",
+                    "channel1": {
+                        "name": "Novasports 4",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports4a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "\u03a0\u03c1\u03bf\u03ba\u03c1\u03b9\u03bc\u03b1\u03c4\u03b9\u03ba\u03ac Eurobasket",
+                        "logo": "\/sites\/default\/files\/2021-01\/eurobasket-min.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732554000,
+                    "plainTime": "19:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/boylgaria",
+                        "logo": "\/sites\/default\/files\/2023-06\/bulgaria_640_0.png",
+                        "name": "\u0392\u039f\u03a5\u039b\u0393\u0391\u03a1\u0399\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/mayroboynio",
+                        "logo": "\/sites\/default\/files\/2023-06\/montenegro_640_0.png",
+                        "name": "\u039c\u0391\u03a5\u03a1\u039f\u0392\u039f\u03a5\u039d\u0399\u039f"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "\/basketball\/prokrimatika-eurobasket\/voylgaria-mayrovoynio-25-11-2024",
+                    "event_id": "5147459",
+                    "channel1": {
+                        "name": "Novasports Start",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasportsstart.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Serie A",
+                        "logo": "\/sites\/default\/files\/2021-01\/serie_a-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732555800,
+                    "plainTime": "19:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/empoli-fc",
+                        "logo": "\/sites\/default\/files\/2023-09\/empoli_f.c._logo_2021_1.png",
+                        "name": "\u0395\u039c\u03a0\u039f\u039b\u0399"
+                    },
+                    "participant2": {
+                        "url": "\/football\/udinese",
+                        "logo": "\/sites\/default\/files\/2023-09\/logo_udinese_calcio_2010.svg.png",
+                        "name": "\u039f\u03a5\u039d\u03a4\u0399\u039d\u0395\u0396\u0395"
+                    },
+                    "gazzetta_url_standings": "\/football\/serie-a\/standings",
+                    "live_url": "\/football\/seriea\/empoli-oyntineze-25-11-2024",
+                    "event_id": "5544746",
+                    "channel1": {
+                        "name": "CosmoteSport 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_2.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "\u03a0\u03c1\u03bf\u03ba\u03c1\u03b9\u03bc\u03b1\u03c4\u03b9\u03ba\u03ac Eurobasket",
+                        "logo": "\/sites\/default\/files\/2021-01\/eurobasket-min.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732559400,
+                    "plainTime": "20:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/germania",
+                        "logo": "\/sites\/default\/files\/2023-06\/germany_640.png",
+                        "name": "\u0393\u0395\u03a1\u039c\u0391\u039d\u0399\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/soyidia",
+                        "logo": "\/sites\/default\/files\/2023-06\/sweden_640.png",
+                        "name": "\u03a3\u039f\u03a5\u0397\u0394\u0399\u0391"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "\/basketball\/prokrimatika-eurobasket\/germania-soyidia-25-11-2024",
+                    "event_id": "5147460",
+                    "channel1": {
+                        "name": "Novasports 6",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports6a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "\u03a0\u03c1\u03bf\u03ba\u03c1\u03b9\u03bc\u03b1\u03c4\u03b9\u03ba\u03ac Eurobasket",
+                        "logo": "\/sites\/default\/files\/2021-01\/eurobasket-min.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732561200,
+                    "plainTime": "21:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/ispania",
+                        "logo": "\/sites\/default\/files\/2023-06\/spain_640.png",
+                        "name": "\u0399\u03a3\u03a0\u0391\u039d\u0399\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/slobakia",
+                        "logo": "\/sites\/default\/files\/2023-06\/slovakia_640_0.png",
+                        "name": "\u03a3\u039b\u039f\u0392\u0391\u039a\u0399\u0391"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "\/basketball\/prokrimatika-eurobasket\/ispania-slovakia-25-11-2024",
+                    "event_id": "5147465",
+                    "channel1": {
+                        "name": "Novasports 5",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports5a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Serie A",
+                        "logo": "\/sites\/default\/files\/2021-01\/serie_a-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732563900,
+                    "plainTime": "21:45",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/benetsia",
+                        "logo": "\/sites\/default\/files\/2021-07\/1200px-venezia_fc_logo.svg.png",
+                        "name": "\u0392\u0395\u039d\u0395\u03a4\u03a3\u0399\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/football\/lecce",
+                        "logo": "\/sites\/default\/files\/2023-09\/us_lecce.svg_1.png",
+                        "name": "\u039b\u0395\u03a4\u03a3\u0395"
+                    },
+                    "gazzetta_url_standings": "\/football\/serie-a\/standings",
+                    "live_url": "\/football\/seriea\/venetsia-letse-25-11-2024",
+                    "event_id": "5544752",
+                    "channel1": {
+                        "name": "CosmoteSport 1",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_1.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Sky Bet League 2",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732564800,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "",
+                        "logo": "\/modules\/custom\/wstats\/assets\/img\/default-logo.png",
+                        "name": "\u03a0\u039f\u03a1\u03a4 \u0392\u0395\u03aa\u039b"
+                    },
+                    "participant2": {
+                        "url": "",
+                        "logo": "\/modules\/custom\/wstats\/assets\/img\/default-logo.png",
+                        "name": "\u039a\u03a1\u039f\u03a5"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 3",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Premier League",
+                        "logo": "\/sites\/default\/files\/2021-01\/premier_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732564800,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/newcastle-united",
+                        "logo": "\/sites\/default\/files\/2023-09\/newcastle_united_logo.svg_1.png",
+                        "name": "\u039d\u0399\u039f\u03a5\u039a\u0391\u03a3\u03a4\u039b"
+                    },
+                    "participant2": {
+                        "url": "\/football\/west-ham",
+                        "logo": "\/sites\/default\/files\/2023-09\/west_ham_united_fc_logo.svg_1.png",
+                        "name": "\u0393\u039f\u03a5\u0395\u03a3\u03a4 \u03a7\u0391\u039c"
+                    },
+                    "gazzetta_url_standings": "\/football\/premier-league\/standings",
+                    "live_url": "\/football\/premier-league\/nioykastl-goyest-cham-25-11-2024",
+                    "event_id": "5515285",
+                    "channel1": {
+                        "name": "Novasports PL",
+                        "logo": "\/sites\/default\/files\/2023-08\/novasports_premier_league1_0.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                }
+            ],
+            "dateData": {
+                "dateDate": "25",
+                "dateMonth": "11",
+                "dateDay": "\u0394\u03b5\u03c5\u03c4\u03ad\u03c1\u03b1",
+                "eventsNum": 12
+            }
+        },
+        "26\/11": {
+            "events": [
+                {
+                    "league": {
+                        "name": "NBA",
+                        "logo": "\/sites\/default\/files\/2021-01\/nba.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732579200,
+                    "plainTime": "02:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/basketball\/indiana-pacers",
+                        "logo": "\/sites\/default\/files\/2023-09\/indiana_pacers.svg_1.png",
+                        "name": "\u0399\u039d\u03a4\u0399\u0391\u039d\u0391 \u03a0\u0395\u0399\u03a3\u0395\u03a1\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/basketball\/new-orleans-pelicans",
+                        "logo": "\/sites\/default\/files\/2023-09\/new_orleans_pelicans_logo.svg_1.png",
+                        "name": "\u039d\u0399\u039f\u03a5 \u039f\u03a1\u039b\u0399\u039d\u03a3 \u03a0\u0395\u039b\u0399\u039a\u0391\u039d\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/basketball\/nba\/standings",
+                    "live_url": "\/basketball\/nba\/intiana-peisers-nioy-orlins-pelikans-26-11-2024",
+                    "event_id": "5630770",
+                    "channel1": {
+                        "name": "CosmoteSport 7",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_7.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "NBA",
+                        "logo": "\/sites\/default\/files\/2021-01\/nba.png"
+                    },
+                    "sport_name": "\u039c\u03c0\u03ac\u03c3\u03ba\u03b5\u03c4",
+                    "timestamp": 1732581000,
+                    "plainTime": "02:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/basketball\/boston-celtics",
+                        "logo": "\/sites\/default\/files\/2023-09\/boston_celtics.svg_1.png",
+                        "name": "\u039c\u03a0\u039f\u03a3\u03a4\u039f\u039d \u03a3\u0395\u039b\u03a4\u0399\u039a\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/basketball\/los-angeles-clippers",
+                        "logo": "\/sites\/default\/files\/2023-09\/los_angeles_clippers_2015.svg_1.png",
+                        "name": "\u039b\u039f\u03a3 \u0391\u039d\u03a4\u0396\u0395\u039b\u0395\u03a3 \u039a\u039b\u0399\u03a0\u0395\u03a1\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/basketball\/nba\/standings",
+                    "live_url": "\/basketball\/nba\/mposton-seltiks-los-antzeles-klipers-26-11-2024",
+                    "event_id": "5630772",
+                    "channel1": {
+                        "name": "CosmoteSport 4",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_4.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "NFL",
+                        "logo": "\/sites\/default\/files\/2022-04\/national_football_league_logo.svg.png"
+                    },
+                    "sport_name": "\u0391\u03bc\u03b5\u03c1\u03b9\u03ba\u03ac\u03bd\u03b9\u03ba\u03bf \u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732583700,
+                    "plainTime": "03:15",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "",
+                        "logo": "\/modules\/custom\/wstats\/assets\/img\/default-logo.png",
+                        "name": "\u039b\u039f\u03a3 \u0391\u039d\u03a4\u0396\u0395\u039b\u0395\u03a3 \u03a4\u03a3\u0391\u03a1\u03a4\u0396\u0395\u03a1\u03a3"
+                    },
+                    "participant2": {
+                        "url": "",
+                        "logo": "\/modules\/custom\/wstats\/assets\/img\/default-logo.png",
+                        "name": "\u039c\u03a0\u0391\u039b\u03a4\u0399\u039c\u039f\u03a1 \u03a1\u0395\u0399\u0392\u0395\u039d\u03a3"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 9",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_9.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Champions League",
+                        "logo": "\/sites\/default\/files\/2021-01\/champions_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732643100,
+                    "plainTime": "19:45",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/sparta-prague",
+                        "logo": "\/sites\/default\/files\/2024-01\/ac-sparta-emblem.png",
+                        "name": "\u03a3\u03a0\u0391\u03a1\u03a4\u0391 \u03a0\u03a1\u0391\u0393\u0391\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/football\/atletico-madrid",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_atletico_madrid-v2.svg",
+                        "name": "\u0391\u03a4\u039b\u0395\u03a4\u0399\u039a\u039f \u039c\u0391\u0394\u03a1\u0399\u03a4\u0397\u03a3"
+                    },
+                    "gazzetta_url_standings": "\/football\/champions-league\/standings",
+                    "live_url": "\/football\/champions-league\/sparta-pragas-atletiko-madritis-26-11-2024",
+                    "event_id": "5668083",
+                    "channel1": {
+                        "name": "CosmoteSport 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_2.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Champions League",
+                        "logo": "\/sites\/default\/files\/2021-01\/champions_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732643100,
+                    "plainTime": "19:45",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/slovan-bratislava",
+                        "logo": "\/sites\/default\/files\/2021-01\/slovan_bratislava.png",
+                        "name": "\u03a3\u039b\u039f\u0392\u0391\u039d \u039c\u03a0\u03a1\u0391\u03a4\u0399\u03a3\u039b\u0391\u0392\u0391\u03a3"
+                    },
+                    "participant2": {
+                        "url": "\/teams\/milan",
+                        "logo": "\/sites\/default\/files\/2021-01\/milan.svg",
+                        "name": "\u039c\u0399\u039b\u0391\u039d"
+                    },
+                    "gazzetta_url_standings": "\/football\/champions-league\/standings",
+                    "live_url": "\/football\/champions-league\/slovan-mpratislavas-milan-26-11-2024",
+                    "event_id": "5668082",
+                    "channel1": {
+                        "name": "CosmoteSport 3",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Champions League",
+                        "logo": "\/sites\/default\/files\/2021-01\/champions_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732651200,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/bayern-munich",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_fc_bayern_munchen_logo_v2.svg",
+                        "name": "\u039c\u03a0\u0391\u0393\u0395\u03a1\u039d \u039c\u039f\u039d\u0391\u03a7\u039f\u03a5"
+                    },
+                    "participant2": {
+                        "url": "\/football\/psg",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_paris_saint-germain_v2.svg",
+                        "name": "\u03a0\u0391\u03a1\u0399 \u03a3\u0395\u039d \u0396\u0395\u03a1\u039c\u0395\u039d"
+                    },
+                    "gazzetta_url_standings": "\/football\/champions-league\/standings",
+                    "live_url": "\/football\/champions-league\/mpagern-monachoy-pari-sen-zermen-26-11-2024",
+                    "event_id": "5668086",
+                    "channel1": {
+                        "name": "CosmoteSport 2",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_2.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Champions League",
+                        "logo": "\/sites\/default\/files\/2021-01\/champions_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732651200,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/sporting-lisbon",
+                        "logo": "\/sites\/default\/files\/2021-01\/sporting_lisbon.svg",
+                        "name": "\u03a3\u03a0\u039f\u03a1\u03a4\u0399\u039d\u0393\u039a"
+                    },
+                    "participant2": {
+                        "url": "\/football\/arsenal",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_arsenal_fc_v2.svg",
+                        "name": "\u0391\u03a1\u03a3\u0395\u039d\u0391\u039b"
+                    },
+                    "gazzetta_url_standings": "\/football\/champions-league\/standings",
+                    "live_url": "\/football\/champions-league\/sportingk-arsenal-26-11-2024",
+                    "event_id": "5668089",
+                    "channel1": {
+                        "name": "CosmoteSport 3",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Championship",
+                        "logo": ""
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732651200,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/sunderland",
+                        "logo": "\/sites\/default\/files\/2021-01\/sunderland_0.svg",
+                        "name": "SUNDERLAND"
+                    },
+                    "participant2": {
+                        "url": "\/football\/west-bromwich",
+                        "logo": "\/sites\/default\/files\/2021-01\/west_bromwich_albion.svg",
+                        "name": "\u0393\u039f\u03a5\u0395\u03a3\u03a4 \u039c\u03a0\u03a1\u039f\u039c"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 4",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_4.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Champions League",
+                        "logo": "\/sites\/default\/files\/2021-01\/champions_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732651200,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/inter",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_fc_internazionale_milano_v2.svg",
+                        "name": "\u0399\u039d\u03a4\u0395\u03a1"
+                    },
+                    "participant2": {
+                        "url": "\/football\/rb-leipzig",
+                        "logo": "\/sites\/default\/files\/2023-09\/rb_leipzig_2014_logo.svg_1.png",
+                        "name": "\u039b\u0395\u0399\u03a8\u0399\u0391"
+                    },
+                    "gazzetta_url_standings": "\/football\/champions-league\/standings",
+                    "live_url": "\/football\/champions-league\/inter-leiyia-26-11-2024",
+                    "event_id": "5668087",
+                    "channel1": {
+                        "name": "CosmoteSport 5",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_5.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Champions League",
+                        "logo": "\/sites\/default\/files\/2021-01\/champions_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732651200,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/manchester-city",
+                        "logo": "\/sites\/default\/files\/2024-09\/logos_42x42_manchester_city_fc_badge_v2.svg",
+                        "name": "\u039c\u0391\u039d\u03a4\u03a3\u0395\u03a3\u03a4\u0395\u03a1 \u03a3\u0399\u03a4\u0399"
+                    },
+                    "participant2": {
+                        "url": "\/football\/fegenornt",
+                        "logo": "\/sites\/default\/files\/2024-01\/feyenoord_emblem.png",
+                        "name": "\u03a6\u0395\u0393\u0395\u039d\u039f\u03a1\u039d\u03a4"
+                    },
+                    "gazzetta_url_standings": "\/football\/champions-league\/standings",
+                    "live_url": "\/football\/champions-league\/mantsester-siti-fegenornt-26-11-2024",
+                    "event_id": "5668088",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Champions League",
+                        "logo": "\/sites\/default\/files\/2021-01\/champions_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732651200,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/teams\/barcelona",
+                        "logo": "\/sites\/default\/files\/2021-01\/barcelona_0.svg",
+                        "name": "\u039c\u03a0\u0391\u03a1\u03a4\u03a3\u0395\u039b\u039f\u039d\u0391"
+                    },
+                    "participant2": {
+                        "url": "\/football\/brest",
+                        "logo": "\/sites\/default\/files\/2023-09\/stade_brestois_29_logo.svg_1.png",
+                        "name": "\u039c\u03a0\u03a1\u0395\u03a3\u03a4"
+                    },
+                    "gazzetta_url_standings": "\/football\/champions-league\/standings",
+                    "live_url": "\/football\/champions-league\/mpartselona-mprest-26-11-2024",
+                    "event_id": "5668084",
+                    "channel1": {
+                        "name": "CosmoteSport 7",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_7.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Champions League",
+                        "logo": "\/sites\/default\/files\/2021-01\/champions_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732651200,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/leverkusen",
+                        "logo": "\/sites\/default\/files\/2021-01\/leverkusen-min.png",
+                        "name": "\u039c\u03a0\u0391\u0393\u0395\u03a1 \u039b\u0395\u0392\u0395\u03a1\u039a\u039f\u03a5\u0396\u0395\u039d"
+                    },
+                    "participant2": {
+                        "url": "\/football\/salzburg",
+                        "logo": "\/sites\/default\/files\/2024-01\/fc_red_bull_salzburg_emblem.png",
+                        "name": "\u0396\u0391\u039b\u03a4\u03a3\u039c\u03a0\u039f\u03a5\u03a1\u0393\u039a"
+                    },
+                    "gazzetta_url_standings": "\/football\/champions-league\/standings",
+                    "live_url": "\/football\/champions-league\/mpager-leverkoyzen-zaltsmpoyrgk-26-11-2024",
+                    "event_id": "5668085",
+                    "channel1": {
+                        "name": "CosmoteSport 8",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_8.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Champions League",
+                        "logo": "\/sites\/default\/files\/2021-01\/champions_league-min-min.png"
+                    },
+                    "sport_name": "\u03a0\u03bf\u03b4\u03cc\u03c3\u03c6\u03b1\u03b9\u03c1\u03bf",
+                    "timestamp": 1732651200,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "\/football\/young-boys",
+                        "logo": "\/sites\/default\/files\/2021-01\/young_boys.svg",
+                        "name": "\u0393\u0399\u0391\u039d\u0393\u039a \u039c\u03a0\u039f\u0399\u0396"
+                    },
+                    "participant2": {
+                        "url": "\/football\/atalanta",
+                        "logo": "\/sites\/default\/files\/2021-01\/atalanta.svg",
+                        "name": "\u0391\u03a4\u0391\u039b\u0391\u039d\u03a4\u0391"
+                    },
+                    "gazzetta_url_standings": "\/football\/champions-league\/standings",
+                    "live_url": "\/football\/champions-league\/giangk-mpoiz-atalanta-26-11-2024",
+                    "event_id": "5668090",
+                    "channel1": {
+                        "name": "CosmoteSport 9",
+                        "logo": "\/sites\/default\/files\/2023-08\/cosmotesports_9.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                }
+            ],
+            "dateData": {
+                "dateDate": "26",
+                "dateMonth": "11",
+                "dateDay": "\u03a4\u03c1\u03af\u03c4\u03b7",
+                "eventsNum": 13
+            }
+        },
+        "27\/11": {
+            "events": [],
+            "dateData": {
+                "dateDate": "27",
+                "dateMonth": "11",
+                "dateDay": "\u03a4\u03b5\u03c4\u03ac\u03c1\u03c4\u03b7"
+            }
+        },
+        "28\/11": {
+            "events": [],
+            "dateData": {
+                "dateDate": "28",
+                "dateMonth": "11",
+                "dateDay": "\u03a0\u03ad\u03bc\u03c0\u03c4\u03b7"
+            }
+        },
+        "29\/11": {
+            "events": [],
+            "dateData": {
+                "dateDate": "29",
+                "dateMonth": "11",
+                "dateDay": "\u03a0\u03b1\u03c1\u03b1\u03c3\u03ba\u03b5\u03c5\u03ae"
+            }
+        },
+        "30\/11": {
+            "events": [],
+            "dateData": {
+                "dateDate": "30",
+                "dateMonth": "11",
+                "dateDay": "\u03a3\u03ac\u03b2\u03b2\u03b1\u03c4\u03bf"
+            }
+        }
+    },
+    "inner_banner": {
+        "body": "\u003Cdiv class=\u0022mb-0 mt-0\u0022 style=\u0022position: relative;z-index: 1;text-align: center;\u0022\u003E\r\n   \u003Ca href=\u0022https:\/\/ad.doubleclick.net\/ddm\/trackclk\/N2192408.152719GAZZETTA.GR\/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439848;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\u0022 rel=\u0022sponsored\u0022 target=\u0022_blank\u0022 title=\u0022novibet\u0022 class=\u0022is-hidden-mobile\u0022\u003E\r\n        \u003Cpicture\u003E\r\n            \u003Cimg src=\u0022\/sites\/default\/files\/promos\/NBA-1200x110-Greece.gif\u0022 alt=\u0022novibet\u0022 width=\u00221200\u0022 height=\u0022110\u0022\u003E\r\n        \u003C\/picture\u003E\r\n    \u003C\/a\u003E\r\n    \u003Ca href=\u0022https:\/\/ad.doubleclick.net\/ddm\/trackclk\/N2192408.152719GAZZETTA.GR\/B31306207.406831054;dc_trk_aid=598854565;dc_trk_cid=224921823;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\u0022 rel=\u0022sponsored\u0022 target=\u0022_blank\u0022 title=\u0022novibet\u0022 class=\u0022is-hidden-tablet\u0022\u003E\r\n        \u003Cpicture\u003E\r\n            \u003Cimg src=\u0022\/sites\/default\/files\/promos\/NBA-380x80-Greece.gif\u0022 alt=\u0022novibet\u0022 width=\u0022380\u0022 height=\u002280\u0022\u003E\r\n        \u003C\/picture\u003E\r\n    \u003C\/a\u003E\r\n\u003Cdiv style=\u0022height:1px; overflow:hidden;\u0022\u003E\r\n\u003CIMG SRC=\u0022https:\/\/ad.doubleclick.net\/ddm\/trackimp\/N2192408.152719GAZZETTA.GR\/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439848;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1?\u0022 attributionsrc BORDER=\u00220\u0022 HEIGHT=\u00221\u0022 WIDTH=\u00221\u0022 ALT=\u0022Advertisement\u0022\u003E\r\n\u003C\/div\u003E\r\n\u003C\/div\u003E",
+        "position": "5"
+    }
+}
