@@ -1,0 +1,1674 @@
+{
+    "dates": {
+        "16/04": {
+            "events": [
+                {
+                    "league": {
+                        "name": "NBA",
+                        "logo": "/sites/default/files/2021-01/nba.png"
+                    },
+                    "sport_name": "Μπάσκετ",
+                    "timestamp": 1744759800,
+                    "plainTime": "02:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/basketball/orlando-magic",
+                        "logo": "/sites/default/files/2023-09/orlando_magic_logo.svg_1.png",
+                        "name": "ΟΡΛΑΝΤΟ ΜΑΤΖΙΚ"
+                    },
+                    "participant2": {
+                        "url": "/basketball/atlanta-hawks",
+                        "logo": "/sites/default/files/2023-09/atlanta_hawks_logo.svg_1.png",
+                        "name": "ΑΤΛΑΝΤΑ ΧΟΚΣ"
+                    },
+                    "gazzetta_url_standings": "/basketball/nba/standings",
+                    "live_url": "/basketball/nba/orlanto-matzik-atlanta-choks-live-16-04-2025",
+                    "event_id": "5923786",
+                    "channel1": {
+                        "name": "CosmoteSport 4",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_4.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "NBA",
+                        "logo": "/sites/default/files/2021-01/nba.png"
+                    },
+                    "sport_name": "Μπάσκετ",
+                    "timestamp": 1744768800,
+                    "plainTime": "05:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/basketball/golden-state-warriors",
+                        "logo": "/sites/default/files/2023-09/golden_state_warriors_logo.svg_1.png",
+                        "name": "ΓΚΟΛΝΤΕΝ ΣΤΕΙΤ ΓΟΥΟΡΙΟΡΣ"
+                    },
+                    "participant2": {
+                        "url": "/basketball/memphis-grizzlies",
+                        "logo": "/sites/default/files/2021-01/memphis_grizzlies.svg",
+                        "name": "ΜΕΜΦΙΣ ΓΚΡΙΖΛΙΣ"
+                    },
+                    "gazzetta_url_standings": "/basketball/nba/standings",
+                    "live_url": "/basketball/nba/gkolnten-steit-goyoriors-memfis-gkrizlis-live-16-04-2025",
+                    "event_id": "5925365",
+                    "channel1": {
+                        "name": "CosmoteSport 5",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_5.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744794000,
+                    "plainTime": "12:00",
+                    "event_text": "ATP 500 - Βαρκελώνη",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744794000,
+                    "plainTime": "12:00",
+                    "event_text": "ATP 500 - Μόναχο",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 7",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_7.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744801200,
+                    "plainTime": "14:00",
+                    "event_text": "ATP 500 - Βαρκελώνη",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744812000,
+                    "plainTime": "17:00",
+                    "event_text": "ATP 500 - Βαρκελώνη",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744812000,
+                    "plainTime": "17:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/stefanos-tsitsipas",
+                        "logo": "/sites/default/files/2024-06/tsitsipas_full_2024_may.png",
+                        "name": "ΣΤΕΦΑΝΟΣ ΤΣΙΤΣΙΠΑΣ"
+                    },
+                    "participant2": {
+                        "url": "/kornta-sempastian",
+                        "logo": "/sites/default/files/2023-06/korda_full_2022_august.png",
+                        "name": "ΣΕΜΠΑΣΤΙΑΝ ΚΟΡΝΤΑ"
+                    },
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "/stefanos-tsitsipas-sempastian-kornta-live-16-04-2025",
+                    "event_id": "5927150",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Stoiximan GBL",
+                        "logo": "/sites/default/files/2024-09/stoiximan_gbl.png"
+                    },
+                    "sport_name": "Μπάσκετ",
+                    "timestamp": 1744812900,
+                    "plainTime": "17:15",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/basketball/promitheas-patron",
+                        "logo": "/sites/default/files/2023-09/promitheas_patras_bc_logo.svg_1.png",
+                        "name": "ΠΡΟΜΗΘΕΑΣ ΠΑΤΡΩΝ"
+                    },
+                    "participant2": {
+                        "url": "/basketball/karditsas",
+                        "logo": "/sites/default/files/2022-11/as_karditsa_logo.png",
+                        "name": "ΑΣ ΚΑΡΔΙΤΣΑΣ"
+                    },
+                    "gazzetta_url_standings": "/basketball/basket-league/standings",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "ERT 3",
+                        "logo": "/sites/default/files/2023-08/ert_3_hd.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744819200,
+                    "plainTime": "19:00",
+                    "event_text": "ATP 500 - Βαρκελώνη",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "WTA",
+                        "logo": "/sites/default/files/2022-04/wta_general_logo.jpeg"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744821000,
+                    "plainTime": "19:30",
+                    "event_text": "WTA 500 - Στουτγκάρδη",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "Novasports 6",
+                        "logo": "/sites/default/files/2023-08/novasports6a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "DAIKIN Handball Bundesliga",
+                        "logo": ""
+                    },
+                    "sport_name": "Χάντμπολ",
+                    "timestamp": 1744822800,
+                    "plainTime": "20:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "",
+                        "logo": "/modules/custom/wstats/assets/img/default-logo.png",
+                        "name": "ΚΙΕΛΟ"
+                    },
+                    "participant2": {
+                        "url": "",
+                        "logo": "/modules/custom/wstats/assets/img/default-logo.png",
+                        "name": "ΦΟΥΣΕ ΒΕΡΟΛΙΝΟΥ"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 7",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_7.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "FIBA Europe Cup",
+                        "logo": "/sites/default/files/2021-01/fiba_europe_cup-min.png"
+                    },
+                    "sport_name": "Μπάσκετ",
+                    "timestamp": 1744826400,
+                    "plainTime": "21:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "",
+                        "logo": "/sites/default/files/2025-04/bilbaobasket.png",
+                        "name": "ΜΠΙΛΜΠΑΟ"
+                    },
+                    "participant2": {
+                        "url": "/teams/paok",
+                        "logo": "/sites/default/files/2023-09/p.a.o.k._b.c._logo.png",
+                        "name": "ΠΑΟΚ"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "/basketball/fiba-europe-cup/athletik-mpilmpao-paok-16-04-2025",
+                    "event_id": "5912639",
+                    "channel1": {
+                        "name": "ERT 3",
+                        "logo": "/sites/default/files/2023-08/ert_3_hd.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Basketball Champions League",
+                        "logo": "/sites/default/files/2021-01/basketball_champions_league-min-min.png"
+                    },
+                    "sport_name": "Μπάσκετ",
+                    "timestamp": 1744828200,
+                    "plainTime": "21:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/basketball/nanterre-92",
+                        "logo": "/sites/default/files/2021-01/nanterre_92-min.png",
+                        "name": "NANTERRE 92"
+                    },
+                    "participant2": {
+                        "url": "/teams/aek",
+                        "logo": "/sites/default/files/2023-09/aekbc.png",
+                        "name": "ΑΕΚ"
+                    },
+                    "gazzetta_url_standings": "/basketball/basketball-champions-league/standings",
+                    "live_url": "/basketball/basketball-champions-league/nanterre-92-aek-16-04-2025",
+                    "event_id": "5906448",
+                    "channel1": {
+                        "name": "CosmoteSport 4",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_4.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Premier League",
+                        "logo": "/sites/default/files/2021-01/premier_league-min-min.png"
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744828200,
+                    "plainTime": "21:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/newcastle-united",
+                        "logo": "/sites/default/files/2023-09/newcastle_united_logo.svg_1.png",
+                        "name": "ΝΙΟΥΚΑΣΤΛ"
+                    },
+                    "participant2": {
+                        "url": "/football/crystal-palace",
+                        "logo": "/sites/default/files/2023-09/crystal_palace_fc_logo_2022.svg_1.png",
+                        "name": "ΚΡΙΣΤΑΛ ΠΑΛΑΣ"
+                    },
+                    "gazzetta_url_standings": "/football/premier-league/standings",
+                    "live_url": "/football/premier-league/nioykastl-kristal-palas-16-04-2025",
+                    "event_id": "5515455",
+                    "channel1": {
+                        "name": "Novasports PL",
+                        "logo": "/sites/default/files/2023-08/novasports_premier_league1_0.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Champions League",
+                        "logo": "/sites/default/files/2021-01/champions_league-min-min.png"
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744830000,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/teams/real-madrid",
+                        "logo": "/sites/default/files/2024-09/logos_42x42_real_madrid_cf_v2.svg",
+                        "name": "ΡΕΑΛ ΜΑΔΡΙΤΗΣ"
+                    },
+                    "participant2": {
+                        "url": "/football/arsenal",
+                        "logo": "/sites/default/files/2024-09/logos_42x42_arsenal_fc_v2.svg",
+                        "name": "ΑΡΣΕΝΑΛ"
+                    },
+                    "gazzetta_url_standings": "/football/champions-league/standings",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 2",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_2.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Champions League",
+                        "logo": "/sites/default/files/2021-01/champions_league-min-min.png"
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744830000,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/inter",
+                        "logo": "/sites/default/files/2024-09/logos_42x42_fc_internazionale_milano_v2.svg",
+                        "name": "ΙΝΤΕΡ"
+                    },
+                    "participant2": {
+                        "url": "/teams/bayern-munich",
+                        "logo": "/sites/default/files/2024-09/logos_42x42_fc_bayern_munchen_logo_v2.svg",
+                        "name": "ΜΠΑΓΕΡΝ ΜΟΝΑΧΟΥ"
+                    },
+                    "gazzetta_url_standings": "/football/champions-league/standings",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 3",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                }
+            ],
+            "dateData": {
+                "dateDate": "16",
+                "dateMonth": "04",
+                "dateDay": "Τετάρτη",
+                "eventsNum": 16
+            }
+        },
+        "17/04": {
+            "events": [
+                {
+                    "league": {
+                        "name": "NBA",
+                        "logo": "/sites/default/files/2021-01/nba.png"
+                    },
+                    "sport_name": "Μπάσκετ",
+                    "timestamp": 1744846200,
+                    "plainTime": "02:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/basketball/chicago-bulls",
+                        "logo": "/sites/default/files/2023-09/chicago_bulls_logo.svg_1.png",
+                        "name": "ΣΙΚΑΓΟ ΜΠΟΥΛΣ"
+                    },
+                    "participant2": {
+                        "url": "/basketball/miami-heat",
+                        "logo": "/sites/default/files/2023-09/miami_heat_logo.svg_1.png",
+                        "name": "ΜΑΙΑΜΙ ΧΙΤ"
+                    },
+                    "gazzetta_url_standings": "/basketball/nba/standings",
+                    "live_url": "/basketball/nba/sikago-mpoyls-maiami-chit-17-04-2025",
+                    "event_id": "5923787",
+                    "channel1": {
+                        "name": "CosmoteSport 4",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_4.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "NBA",
+                        "logo": "/sites/default/files/2021-01/nba.png"
+                    },
+                    "sport_name": "Μπάσκετ",
+                    "timestamp": 1744853400,
+                    "plainTime": "04:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/basketball/sacramento-kings",
+                        "logo": "/sites/default/files/2023-09/sacramentokings.svg_1.png",
+                        "name": "ΣΑΚΡΑΜΕΝΤΟ ΚΙΝΓΚΣ"
+                    },
+                    "participant2": {
+                        "url": "/basketball/dallas-mavericks",
+                        "logo": "/sites/default/files/2023-09/dallas_mavericks_logo.svg_1.png",
+                        "name": "ΝΤΑΛΑΣ ΜΑΒΕΡΙΚΣ"
+                    },
+                    "gazzetta_url_standings": "/basketball/nba/standings",
+                    "live_url": "/basketball/nba/sakramento-kingks-ntalas-maveriks-17-04-2025",
+                    "event_id": "5925366",
+                    "channel1": {
+                        "name": "CosmoteSport 5",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_5.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744880400,
+                    "plainTime": "12:00",
+                    "event_text": "ATP 500 Βαρκελώνη, Κυρίως Ταμπλό",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744880400,
+                    "plainTime": "12:00",
+                    "event_text": "ATP 500 Μόναχο, Κυρίως Ταμπλό",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 7",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_7.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Elite Neon Cup",
+                        "logo": ""
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744887600,
+                    "plainTime": "14:00",
+                    "event_text": "Elite Neon Cup – Τελική φάση και απονομές",
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "Novasports Start",
+                        "logo": "/sites/default/files/2023-08/novasportsstart.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744887600,
+                    "plainTime": "14:00",
+                    "event_text": "ATP 500 Βαρκελώνη, Κυρίως Ταμπλό",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Roshn Saudi League",
+                        "logo": ""
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744905000,
+                    "plainTime": "18:50",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/al-hilal",
+                        "logo": "/sites/default/files/2023-02/alhilal_fc.png",
+                        "name": "ΑΛ ΧΙΛΑΛ"
+                    },
+                    "participant2": {
+                        "url": "/football/al-khaliz",
+                        "logo": "/sites/default/files/2023-08/khaleej_fc.png",
+                        "name": "ΑΛ ΚΧΑΛΙΖ"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "/saudi-prof.-league/al-chilal-al-kchaliz-17-04-2025",
+                    "event_id": "5577327",
+                    "channel1": {
+                        "name": "CosmoteSport 3",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744905600,
+                    "plainTime": "19:00",
+                    "event_text": "ATP 500 Βαρκελώνη, Κυρίως Ταμπλό",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "WTA",
+                        "logo": "/sites/default/files/2022-04/wta_general_logo.jpeg"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744907400,
+                    "plainTime": "19:30",
+                    "event_text": "WTA 500 Porsche Tennis Grand Prix – 3η μέρα",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "Novasports 6",
+                        "logo": "/sites/default/files/2023-08/novasports6a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Europa Conference League",
+                        "logo": "/sites/default/files/2021-04/eu-conf.png"
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744908300,
+                    "plainTime": "19:45",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/fiorentina",
+                        "logo": "/sites/default/files/2023-09/2022_acf_fiorentina_logo.svg_1.png",
+                        "name": "ΦΙΟΡΕΝΤΙΝΑ"
+                    },
+                    "participant2": {
+                        "url": "/football/tselie",
+                        "logo": "/sites/default/files/2023-06/nk_celje.png",
+                        "name": "ΤΣΕΛΙΕ"
+                    },
+                    "gazzetta_url_standings": "/football/europa-conference-league/standings",
+                    "live_url": "/football/europa-conference-league/fiorentina-tselie-17-04-2025",
+                    "event_id": "5884854",
+                    "channel1": {
+                        "name": "CosmoteSport 4",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_4.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Europa Conference League",
+                        "logo": "/sites/default/files/2021-04/eu-conf.png"
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744908300,
+                    "plainTime": "19:45",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/giagkelonia",
+                        "logo": "/sites/default/files/2024-07/logo_jagielloni_bia_c5_82ystok.png",
+                        "name": "ΓΙΑΓΚΕΛΟΝΙΑ"
+                    },
+                    "participant2": {
+                        "url": "/teams/real-betis",
+                        "logo": "/sites/default/files/2021-01/real_betis.svg",
+                        "name": "ΜΠΕΤΙΣ"
+                    },
+                    "gazzetta_url_standings": "/football/europa-conference-league/standings",
+                    "live_url": "/football/europa-conference-league/giagkelonia-mpetis-17-04-2025",
+                    "event_id": "5884855",
+                    "channel1": {
+                        "name": "CosmoteSport 5",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_5.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Europa League",
+                        "logo": "/sites/default/files/2021-01/europa_league-min-min.png"
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744916400,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/manchester-united",
+                        "logo": "/sites/default/files/2024-09/logos_42x42_manchester_united_fc_crest_v2.svg",
+                        "name": "ΜΑΝΤΣΕΣΤΕΡ ΓΙΟΥΝΑΙΤΕΝΤ"
+                    },
+                    "participant2": {
+                        "url": "/football/lyon",
+                        "logo": "/sites/default/files/2023-09/logo_olympique_lyonnais_2022_1_0.png",
+                        "name": "ΛΥΩΝ"
+                    },
+                    "gazzetta_url_standings": "/football/europa-league/standings",
+                    "live_url": "/football/europa-league/mantsester-gioynaitent-lyvn-17-04-2025",
+                    "event_id": "5884850",
+                    "channel1": {
+                        "name": "CosmoteSport 2",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_2.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Europa League",
+                        "logo": "/sites/default/files/2021-01/europa_league-min-min.png"
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744916400,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/eintracht-frankfurt",
+                        "logo": "/sites/default/files/2023-09/800px-eintracht_frankfurt_logo.svg_1.png",
+                        "name": "ΑΙΝΤΡΑΧΤ ΦΡΑΝΚΦΟΥΡΤΗΣ"
+                    },
+                    "participant2": {
+                        "url": "/football/tottenham",
+                        "logo": "/sites/default/files/2023-09/tottenham_hotspur.svg_1.png",
+                        "name": "ΤΟΤΕΝΑΜ"
+                    },
+                    "gazzetta_url_standings": "/football/europa-league/standings",
+                    "live_url": "/football/europa-league/aintracht-frankfoyrtis-totenam-17-04-2025",
+                    "event_id": "5884848",
+                    "channel1": {
+                        "name": "CosmoteSport 3",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Europa Conference League",
+                        "logo": "/sites/default/files/2021-04/eu-conf.png"
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744916400,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/rapid-wien",
+                        "logo": "/sites/default/files/2021-01/rapid_wien.svg",
+                        "name": "ΡΑΠΙΝΤ ΒΙΕΝΝΗΣ"
+                    },
+                    "participant2": {
+                        "url": "/football/tzoyrgkarnten",
+                        "logo": "/sites/default/files/2023-06/djurgardens_if_logo.svg.png",
+                        "name": "ΤΖΟΥΡΓΚΑΡΝΤΕΝ"
+                    },
+                    "gazzetta_url_standings": "/football/europa-conference-league/standings",
+                    "live_url": "/football/europa-conference-league/rapint-viennis-tzoyrgkarnten-17-04-2025",
+                    "event_id": "5884856",
+                    "channel1": {
+                        "name": "CosmoteSport 5",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_5.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Europa League",
+                        "logo": "/sites/default/files/2021-01/europa_league-min-min.png"
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744916400,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/teams/athletic-bilbao",
+                        "logo": "/sites/default/files/2021-01/athletic_bilbao.svg",
+                        "name": "ΑΘΛΕΤΙΚ ΜΠΙΛΜΠΑΟ"
+                    },
+                    "participant2": {
+                        "url": "/football/rangers-fc",
+                        "logo": "/sites/default/files/2021-01/rangers_f.c.svg",
+                        "name": "ΡΕΙΝΤΖΕΡΣ"
+                    },
+                    "gazzetta_url_standings": "/football/europa-league/standings",
+                    "live_url": "/football/europa-league/athletik-mpilmpao-reintzers-17-04-2025",
+                    "event_id": "5884894",
+                    "channel1": {
+                        "name": "CosmoteSport 7",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_7.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Europa Conference League",
+                        "logo": "/sites/default/files/2021-04/eu-conf.png"
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744916400,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/chelsea",
+                        "logo": "/sites/default/files/2024-09/logos_42x42_chelsea_fc_v2.svg",
+                        "name": "ΤΣΕΛΣΙ"
+                    },
+                    "participant2": {
+                        "url": "/football/legkia-barsobias",
+                        "logo": "/sites/default/files/2024-01/legia_warsaw_emblem.png",
+                        "name": "ΛΕΓΚΙΑ ΒΑΡΣΟΒΙΑΣ"
+                    },
+                    "gazzetta_url_standings": "/football/europa-conference-league/standings",
+                    "live_url": "/football/europa-conference-league/tselsi-legkia-varsovias-17-04-2025",
+                    "event_id": "5884863",
+                    "channel1": {
+                        "name": "CosmoteSport 8",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_8.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Europa League",
+                        "logo": "/sites/default/files/2021-01/europa_league-min-min.png"
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744916400,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/lazio",
+                        "logo": "/sites/default/files/2021-01/lazio.svg",
+                        "name": "ΛΑΤΣΙΟ"
+                    },
+                    "participant2": {
+                        "url": "/football/mponto-gklimt",
+                        "logo": "/sites/default/files/2024-01/fk_bodo_glimt_emblem.png",
+                        "name": "ΜΠΟΝΤΟ ΓΚΛΙΜΤ"
+                    },
+                    "gazzetta_url_standings": "/football/europa-league/standings",
+                    "live_url": "/football/europa-league/latsio-mponto-gklimt-17-04-2025",
+                    "event_id": "5884849",
+                    "channel1": {
+                        "name": "CosmoteSport 9",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_9.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                }
+            ],
+            "dateData": {
+                "dateDate": "17",
+                "dateMonth": "04",
+                "dateDay": "Πέμπτη",
+                "eventsNum": 17
+            }
+        },
+        "18/04": {
+            "events": [
+                {
+                    "league": {
+                        "name": "ΠΑΓΚΟΣΜΙΟ ΚΥΠΕΛΛΟ ΠΟΛΟ ΓΥΝΑΙΚΩΝ",
+                        "logo": ""
+                    },
+                    "sport_name": "Πόλο",
+                    "timestamp": 1744960500,
+                    "plainTime": "10:15",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/teams/ellada",
+                        "logo": "/sites/default/files/2023-06/greece_640.png",
+                        "name": "ΕΛΛΑΔΑ"
+                    },
+                    "participant2": {
+                        "url": "/teams/italia",
+                        "logo": "/sites/default/files/2023-06/italy_640.png",
+                        "name": "ΙΤΑΛΙΑ"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "ERT SPORTS 2",
+                        "logo": "/sites/default/files/2023-10/100px-ertsports2.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744966800,
+                    "plainTime": "12:00",
+                    "event_text": "ATP 500 Βαρκελώνη, Προημιτελικός",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744966800,
+                    "plainTime": "12:00",
+                    "event_text": "ATP 500 Μόναχο, Προημιτελικός",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 7",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_7.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744974000,
+                    "plainTime": "14:00",
+                    "event_text": "ATP 500 Βαρκελώνη, Προημιτελικός",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744974000,
+                    "plainTime": "14:00",
+                    "event_text": "ATP 500 Μόναχο, Προημιτελικός",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 7",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_7.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "WTA",
+                        "logo": "/sites/default/files/2022-04/wta_general_logo.jpeg"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744975800,
+                    "plainTime": "14:30",
+                    "event_text": "WTA 250 Rouen Metropole Open: Α’/Β’/Γ’/Δ’ Προημιτελικός",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "Novasports Start",
+                        "logo": "/sites/default/files/2023-08/novasportsstart.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Sky Bet EFL Championship",
+                        "logo": ""
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744975800,
+                    "plainTime": "14:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/ntermpi",
+                        "logo": "/sites/default/files/2023-07/derby_county_crest.svg.png",
+                        "name": "ΝΤΕΡΜΠΙ"
+                    },
+                    "participant2": {
+                        "url": "/football/loyton",
+                        "logo": "/sites/default/files/2024-01/luton_town_emblem.png",
+                        "name": "ΛΟΥΤΟΝ"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 3",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Premier Padel Tour ",
+                        "logo": ""
+                    },
+                    "sport_name": "Πάντελ",
+                    "timestamp": 1744977600,
+                    "plainTime": "15:00",
+                    "event_text": "Premier Padel Tour Κατάρ, Ημιτελικός Γυναικών",
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 8",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_8.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Sky Bet EFL Championship",
+                        "logo": ""
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744984800,
+                    "plainTime": "17:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/watford",
+                        "logo": "/sites/default/files/2021-01/watford_0.svg",
+                        "name": "ΓΟΥΟΤΦΟΡΝΤ"
+                    },
+                    "participant2": {
+                        "url": "/football/burnley",
+                        "logo": "/sites/default/files/2023-09/burnley_fc_logo.svg_1.png",
+                        "name": "ΜΠΕΡΝΛΙ"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 2",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_2.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Sky Bet EFL Championship",
+                        "logo": ""
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744984800,
+                    "plainTime": "17:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "",
+                        "logo": "/sites/default/files/2023-10/rotherham_united_fc.svg.png",
+                        "name": "ΡΟΔΕΡΑΜ"
+                    },
+                    "participant2": {
+                        "url": "",
+                        "logo": "/sites/default/files/2023-10/mansfield_town_fc.svg.png",
+                        "name": "ΜΑΝΣΦΙΛΝΤ"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 3",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744984800,
+                    "plainTime": "17:00",
+                    "event_text": "ATP 500 Βαρκελώνη, Προημιτελικός",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Premier Padel Tour ",
+                        "logo": ""
+                    },
+                    "sport_name": "Πάντελ",
+                    "timestamp": 1744984800,
+                    "plainTime": "17:00",
+                    "event_text": "Premier Padel Tour Κατάρ, Ημιτελικός Γυναικών",
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 8",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_8.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Liga Portugal Betclic",
+                        "logo": ""
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744986600,
+                    "plainTime": "17:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/rio-abe",
+                        "logo": "/sites/default/files/2023-08/rio_ave_fc_logo.svg.png",
+                        "name": "ΡΙΟ ΑΒΕ"
+                    },
+                    "participant2": {
+                        "url": "",
+                        "logo": "/modules/custom/wstats/assets/img/default-logo.png",
+                        "name": "ΣΑΝΤΑ ΚΛΑΡΑ"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 9",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_9.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "ATP",
+                        "logo": "/sites/default/files/2022-04/atp_general_logo.png"
+                    },
+                    "sport_name": "Τέννις",
+                    "timestamp": 1744992000,
+                    "plainTime": "19:00",
+                    "event_text": "ATP 500 Βαρκελώνη, Προημιτελικός",
+                    "gazzetta_url_standings": "/tennis/vathmologies",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 6",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_6.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Sky Bet EFL Championship",
+                        "logo": ""
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744993800,
+                    "plainTime": "19:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/sheffield-united",
+                        "logo": "/sites/default/files/2023-09/sheffield_united_fc_logo.svg_1.png",
+                        "name": "ΣΕΦΙΛΝΤ ΓΙΟΥΝΑΙΤΕΝΤ"
+                    },
+                    "participant2": {
+                        "url": "/football/cardiff-city",
+                        "logo": "/sites/default/files/2021-01/cardiff_city.svg",
+                        "name": "ΚΑΡΝΤΙΦ"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 1",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_1.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Liga Portugal Betclic",
+                        "logo": ""
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744995600,
+                    "plainTime": "20:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/teams/porto",
+                        "logo": "/sites/default/files/2021-01/porto-min.png",
+                        "name": "ΠΟΡΤΟ"
+                    },
+                    "participant2": {
+                        "url": "/football/famalikao",
+                        "logo": "/sites/default/files/2023-08/f.c._famalicao_logo.svg.png",
+                        "name": "ΦΑΜΑΛΙΚΑΟ"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 5",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_5.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Μπάσκετ: Τουρκία",
+                        "logo": "/sites/default/files/2021-01/basket_turkey-min-min.png"
+                    },
+                    "sport_name": "Μπάσκετ",
+                    "timestamp": 1744997400,
+                    "plainTime": "20:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/teams/fenerbahce-istanbul",
+                        "logo": "/sites/default/files/2023-09/fenerbahce_mens_basketball_logo.svg_1.png",
+                        "name": "ΦΕΝΕΡΜΠΑΧΤΣΕ"
+                    },
+                    "participant2": {
+                        "url": "/basketball/bahcesehir-koleji",
+                        "logo": "/sites/default/files/2021-01/bahcesehir_koleji.svg",
+                        "name": "BAHCESEHIR KOLEJI"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 4",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_4.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Euroleague",
+                        "logo": "/sites/default/files/2021-01/euroleague-min-min.png"
+                    },
+                    "sport_name": "Μπάσκετ",
+                    "timestamp": 1744999200,
+                    "plainTime": "21:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/teams/real-madrid",
+                        "logo": "/sites/default/files/2023-09/real_madrid_baloncesto_1.png",
+                        "name": "ΡΕΑΛ ΜΑΔΡΙΤΗΣ"
+                    },
+                    "participant2": {
+                        "url": "/teams/bayern-munich",
+                        "logo": "/sites/default/files/2023-09/logo_fc_bayern_munchen_basketball_ab_2022_1.png",
+                        "name": "ΜΠΑΓΕΡΝ ΜΟΝΑΧΟΥ"
+                    },
+                    "gazzetta_url_standings": "/standings",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "Novasports Prime",
+                        "logo": "/sites/default/files/2023-08/novasportsprime_1.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Roshn Saudi League",
+                        "logo": ""
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1744999200,
+                    "plainTime": "21:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/al-kantsia",
+                        "logo": "/sites/default/files/2024-07/239130980_2938367159757969_6930166909417902237_n.png",
+                        "name": "ΑΛ ΚΑΝΤΣΙΑ"
+                    },
+                    "participant2": {
+                        "url": "/football/al-nasr",
+                        "logo": "/sites/default/files/2023-01/logo_al-nassr.png",
+                        "name": "ΑΛ ΝΑΣΡ"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 7",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_7.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Μπάσκετ: Ιταλία",
+                        "logo": "/sites/default/files/2021-01/basket-italy.png"
+                    },
+                    "sport_name": "Μπάσκετ",
+                    "timestamp": 1745001000,
+                    "plainTime": "21:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/basketball/ax-armani-exchange-olimpia-milan",
+                        "logo": "/sites/default/files/2022-08/olympia_armani-small.png",
+                        "name": "ΑΡΜΑΝΙ ΜΙΛΑΝΟ"
+                    },
+                    "participant2": {
+                        "url": "",
+                        "logo": "/sites/default/files/2021-01/vanoli_bas._cremona-min.png",
+                        "name": "ΚΡΕΜΟΝΑ"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 9",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_9.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "La Liga",
+                        "logo": "/sites/default/files/2021-01/la_liga-min.png"
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1745002800,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/espanyol",
+                        "logo": "/sites/default/files/2021-01/espanyol.svg",
+                        "name": "ΕΣΠΑΝΙΟΛ"
+                    },
+                    "participant2": {
+                        "url": "/football/getafe",
+                        "logo": "/sites/default/files/2021-01/getafe.svg",
+                        "name": "ΧΕΤΑΦΕ"
+                    },
+                    "gazzetta_url_standings": "/football/la-liga/standings",
+                    "live_url": "/football/la-liga/espaniol-chetafe-18-04-2025",
+                    "event_id": "5522749",
+                    "channel1": {
+                        "name": "Novasports 1",
+                        "logo": "/sites/default/files/2023-08/novasports1a.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Sky Bet EFL Championship",
+                        "logo": ""
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1745002800,
+                    "plainTime": "22:00",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/oxfornt-gioynaitent",
+                        "logo": "/sites/default/files/2023-01/oxford_united_fc_logo.svg.png",
+                        "name": "ΟΞΦΟΡΝΤ ΓΙΟΥΝΑΙΤΕΝΤ"
+                    },
+                    "participant2": {
+                        "url": "/football/leeds",
+                        "logo": "/sites/default/files/2021-01/leeds-united-afc-3.svg",
+                        "name": "ΛΙΝΤΣ"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 2",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_2.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                },
+                {
+                    "league": {
+                        "name": "Liga Portugal Betclic",
+                        "logo": ""
+                    },
+                    "sport_name": "Ποδόσφαιρο",
+                    "timestamp": 1745004600,
+                    "plainTime": "22:30",
+                    "event_text": "",
+                    "participant1": {
+                        "url": "/football/sporting-lisbon",
+                        "logo": "/sites/default/files/2021-01/sporting_lisbon.svg",
+                        "name": "ΣΠΟΡΤΙΝΓΚ"
+                    },
+                    "participant2": {
+                        "url": "/football/moreirense",
+                        "logo": "/sites/default/files/2023-08/moreirense_futebol_clube_logo.svg.png",
+                        "name": "ΜΟΡΕΙΡΕΝΣΕ"
+                    },
+                    "gazzetta_url_standings": "",
+                    "live_url": "",
+                    "channel1": {
+                        "name": "CosmoteSport 3",
+                        "logo": "/sites/default/files/2023-08/cosmotesports_3.png"
+                    },
+                    "channel2": {
+                        "name": "",
+                        "logo": ""
+                    }
+                }
+            ],
+            "dateData": {
+                "dateDate": "18",
+                "dateMonth": "04",
+                "dateDay": "Παρασκευή",
+                "eventsNum": 23
+            }
+        },
+        "19/04": {
+            "events": [],
+            "dateData": {
+                "dateDate": "19",
+                "dateMonth": "04",
+                "dateDay": "Σάββατο"
+            }
+        },
+        "20/04": {
+            "events": [],
+            "dateData": {
+                "dateDate": "20",
+                "dateMonth": "04",
+                "dateDay": "Κυριακή"
+            }
+        },
+        "21/04": {
+            "events": [],
+            "dateData": {
+                "dateDate": "21",
+                "dateMonth": "04",
+                "dateDay": "Δευτέρα"
+            }
+        },
+        "22/04": {
+            "events": [],
+            "dateData": {
+                "dateDate": "22",
+                "dateMonth": "04",
+                "dateDay": "Τρίτη"
+            }
+        },
+        "23/04": {
+            "events": [],
+            "dateData": {
+                "dateDate": "23",
+                "dateMonth": "04",
+                "dateDay": "Τετάρτη"
+            }
+        }
+    },
+    "inner_banner": {
+        "body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192teMonth": "04",
+        "dateDay": "Τετάρτη"
+    }
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192408.152719GAZZETTA.GR/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439845;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\" rel=\teMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192408.152719GAZZETTA.GR/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439845;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\" rel=\"sponsored\" target=\"_blank\" title=\"novibet\" class=\"is-hidden-mobile\">\r\n        <picture>\r\n            <img src=\"/sites/default/files/promos/epatha_2024-25--1200x110-Greece.gif\" alt=\"novibet\" witeMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192408.152719GAZZETTA.GR/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439845;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\" rel=\teMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192408.152719GAZZETTA.GR/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439845;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\" rel=\teMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192408.152719GAZZETTA.GR/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439845;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\" rel=\"sponsored\" target=\"_blank\" title=\"novibet\" class=\"is-hidden-mobile\">\r\n        <picture>\r\n            <img src=\"/sites/default/files/promos/epatha_2024-25--1200x110-Greece.gif\" alt=\"novibet\" witeMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192408.152719GAZZETTA.GR/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439845;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\" rel=\teMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192408.152719GAZZETTA.GR/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439845;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\" rel=\"sponsored\" target=\"_blank\" title=\"novibet\" class=\"is-hidden-mobile\">\r\n        <picture>\r\n            <img src=\"/sites/default/files/promos/epatha_2024-25--1200x110-Greece.gif\" alt=\"novibet\" witeMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192408.152719GAZZETTA.GR/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439845;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\" rel=\"sponsored\" target=\"_blank\" title=\"novibet\" class=\"is-hidden-mobile\">\r\n        <picture>\r\n            <img src=\"/sites/default/files/promos/epatha_2024-25--1200x110-Greece.gif\" alt=\"novibet\" width=\"1200\" height=\"110\">\r\n        </picture>\r\n    </a>\r\n    <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192408.152719GAZZETTA.GR/B31306207.406831054;dc_trk_aid=598854565;dc_trk_cid=224921820teMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192408.152719GAZZETTA.GR/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439845;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\" rel=\"sponsored\" target=\"_blank\" title=\"novibet\" class=\"is-hidden-mobile\">\r\n        <picture>\r\n            <img src=\"/sites/default/files/promos/epatha_2024-25--1200x110-Greece.gif\" alt=\"novibet\" witeMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192teMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192408.152719GAZZETTA.GR/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439845;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\" rel=\teMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192408.152719GAZZETTA.GR/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439845;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\" rel=\teMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192408.152719GAZZETTA.GR/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439845;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\" rel=\teMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192teMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192teMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192teMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192teMonth": "04",
+"dateDay": "Τετάρτη"
+}
+}
+},
+"inner_banner": {
+"body": "<div class=\"mb-0 mt-0\" style=\"position: relative;z-index: 1;text-align: center;\">\r\n   <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192408.152719GAZZETTA.GR/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439845;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\" rel=\"sponsored\" target=\"_blank\" title=\"novibet\" class=\"is-hidden-mobile\">\r\n        <picture>\r\n            <img src=\"/sites/default/files/promos/epatha_2024-25--1200x110-Greece.gif\" alt=\"novibet\" width=\"1200\" height=\"110\">\r\n        </picture>\r\n    </a>\r\n    <a href=\"https://ad.doubleclick.net/ddm/trackclk/N2192408.152719GAZZETTA.GR/B31306207.406831054;dc_trk_aid=598854565;dc_trk_cid=224921820;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1\" rel=\"sponsored\" target=\"_blank\" title=\"novibet\" class=\"is-hidden-tablet\">\r\n        <picture>\r\n            <img src=\"/sites/default/files/promos/epatha_2024-25-380x80-Greece.gif\" alt=\"novibet\" width=\"380\" height=\"80\">\r\n        </picture>\r\n    </a>\r\n<div style=\"height:1px; overflow:hidden;\">\r\n<IMG SRC=\"https://ad.doubleclick.net/ddm/trackimp/N2192408.152719GAZZETTA.GR/B31306207.406831030;dc_trk_aid=598846967;dc_trk_cid=224439845;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=;dc_tdv=1?\" attributionsrc BORDER=\"0\" HEIGHT=\"1\" WIDTH=\"1\" ALT=\"Advertisement\">\r\n</div>\r\n</div>",
+"position": "5"
+}
+}
