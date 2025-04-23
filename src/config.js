@@ -1,9 +1,4 @@
 // src/config.js
-
-const config = {
-    teams: ["ΟΛΥΜΠΙΑΚΟΣ", "ΠΑΝΑΘΗΝΑΙΚΟΣ", "ΕΛΛΑΔΑ"],
-    leagueExclusions: ["Γυναικών"],
-    interval: 43200000 // Interval in milliseconds (24 hours)
-};
-
-module.exports = config;
+export const teams = ["ΟΛΥΜΠΙΑΚΟΣ", "ΠΑΝΑΘΗΝΑΙΚΟΣ", "ΕΛΛΑΔΑ"];
+export const leagueExclusions = ["Γυναικών"];
+export const interval = 3600000; // 1 hour in milliseconds

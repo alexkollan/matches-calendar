@@ -8,13 +8,14 @@ const { teams, leagueExclusions } = require('./config');
 /**
  * Fetches the TV schedule and adds matches to Google Calendar.
  * @param {google.auth.OAuth2} auth - The authorized OAuth2 client.
+ * @param {Array} matchesCollector - Optional array to collect matches.
+ * @param {boolean} skipCalendarUpdate - Whether to skip updating the calendar.
+ * @returns {Array} - The list of matches found.
  */
-async function fetchTVSchedule(auth) {
+async function fetchTVSchedule(auth, matchesCollector = [], skipCalendarUpdate = false) {
     const url = 'https://www.gazzetta.gr/gztfeeds/tvschedule-v2';
-    // console.log(`Fetching TV schedule from ${url}`);
     const response = await fetch(url);
     const data = await response.json();
-    // console.log(`Fetched data: ${JSON.stringify(data)}`);
     const matches = [];
 
     for (const day in data.dates) {
@@ -23,10 +24,7 @@ async function fetchTVSchedule(auth) {
                 (match.sport_name === "Ποδόσφαιρο" || match.sport_name === "Μπάσκετ") &&
                 teams.some(team => match.participant1?.name?.includes(team) || match.participant2?.name?.includes(team)) &&
                 !leagueExclusions.some(exclusion => match.league?.name?.includes(exclusion))
-                
             ) {
-                // console.log("Match found:", match);
-                
                 const details = {
                     title: `${match.participant1?.name} - ${match.participant2?.name} (${match.sport_name})`,
                     date: `${day}/${new Date().getFullYear()}`,
@@ -39,15 +37,25 @@ async function fetchTVSchedule(auth) {
             }
         });
     }
-    if(matches.length === 0) {
+    
+    if (matches.length === 0) {
         console.log("No matches found for: (", teams.join(", "), ")");
     }
 
-    for (const match of matches) {
-        console.log(`Adding event to calendar`);
-        await addEvent(auth, match);
-
+    // Add matches to the collector array if provided
+    if (matchesCollector) {
+        matchesCollector.push(...matches);
     }
+
+    // Update calendar if not skipped
+    if (!skipCalendarUpdate) {
+        for (const match of matches) {
+            console.log(`Adding event to calendar`);
+            await addEvent(auth, match);
+        }
+    }
+
+    return matches;
 }
 
 module.exports = { fetchTVSchedule };
