@@ -1,6 +1,6 @@
-const { google } = require('googleapis');
-const fs = require('fs');
-const readline = require('readline');
+import { google } from 'googleapis';
+import fs from 'fs';
+import readline from 'readline';
 
 const SCOPES = ['https://www.googleapis.com/auth/calendar'];
 const TOKEN_PATH = 'token.json';
@@ -9,28 +9,21 @@ const TOKEN_PATH = 'token.json';
  * Authorizes the application using stored credentials or generates a new token.
  * @param {function} callback - The callback to execute once authorized.
  */
-function authorize(callback) {
+export function authorize(callback) {
     const credentials = JSON.parse(fs.readFileSync('credentials.json'));
     const { client_secret, client_id, redirect_uris } = credentials.installed;
     const oAuth2Client = new google.auth.OAuth2(client_id, client_secret, 'urn:ietf:wg:oauth:2.0:oob');
 
-    fs.readFile(TOKEN_PATH, async (err, token) => {
-        if (err) return getAccessToken(oAuth2Client, callback);
+    try {
+        const token = fs.readFileSync(TOKEN_PATH);
         oAuth2Client.setCredentials(JSON.parse(token));
 
-        // Automatically refresh the access token if it's expired
-        try {
-            const newToken = await oAuth2Client.refreshAccessToken();
-            oAuth2Client.setCredentials(newToken.credentials);
-            fs.writeFileSync(TOKEN_PATH, JSON.stringify(oAuth2Client.credentials));
-            console.log('Access token is valid or has been refreshed.');
-        } catch (error) {
-            console.error('Error refreshing access token:', error);
-            return getAccessToken(oAuth2Client, callback);
-        }
-
-        callback(oAuth2Client);
-    });
+        // Immediately execute with the loaded token
+        refreshAndExecute(oAuth2Client, callback);
+    } catch (err) {
+        // If token doesn't exist or can't be read
+        getAccessToken(oAuth2Client, callback);
+    }
 
     // Listen for token updates to store the new refresh token if issued
     oAuth2Client.on('tokens', (tokens) => {
@@ -41,6 +34,22 @@ function authorize(callback) {
             console.log('New refresh token stored to', TOKEN_PATH);
         }
     });
+}
+
+/**
+ * Refreshes the token if needed and executes the callback
+ */
+async function refreshAndExecute(oAuth2Client, callback) {
+    try {
+        const newToken = await oAuth2Client.refreshAccessToken();
+        oAuth2Client.setCredentials(newToken.credentials);
+        fs.writeFileSync(TOKEN_PATH, JSON.stringify(oAuth2Client.credentials));
+        console.log('Access token is valid or has been refreshed.');
+        callback(oAuth2Client);
+    } catch (error) {
+        console.error('Error refreshing access token:', error);
+        getAccessToken(oAuth2Client, callback);
+    }
 }
 
 /**
@@ -66,5 +75,3 @@ function getAccessToken(oAuth2Client, callback) {
         });
     });
 }
-
-module.exports = { authorize };

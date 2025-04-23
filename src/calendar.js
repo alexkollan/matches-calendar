@@ -1,12 +1,12 @@
-const { google } = require('googleapis');
-const { createHash } = require('./utils');
+import { google } from 'googleapis';
+import { createHash } from './utils.js';
 
 /**
  * Adds an event to Google Calendar if it doesn't already exist.
  * @param {google.auth.OAuth2} auth - The authorized OAuth2 client.
  * @param {Object} match - Match details to add as an event.
  */
-async function addEvent(auth, match) {
+export async function addEvent(auth, match) {
     const calendar = google.calendar({ version: 'v3', auth });
 
     const [day, month, year] = match.date.split('/');
@@ -56,5 +56,3 @@ async function addEvent(auth, match) {
         console.error(err);
     }
 }
-
-module.exports = { addEvent };

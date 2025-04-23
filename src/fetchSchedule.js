@@ -1,9 +1,9 @@
 // src/fetchSchedule.js
 
-const fetch = require('node-fetch');
-const { createHash } = require('./utils');
-const { addEvent } = require('./calendar');
-const { teams, leagueExclusions } = require('./config');
+import fetch from 'node-fetch';
+import { createHash } from './utils.js';
+import { addEvent } from './calendar.js';
+import { teams, leagueExclusions } from './config.js';
 
 /**
  * Fetches the TV schedule and adds matches to Google Calendar.
@@ -12,7 +12,7 @@ const { teams, leagueExclusions } = require('./config');
  * @param {boolean} skipCalendarUpdate - Whether to skip updating the calendar.
  * @returns {Array} - The list of matches found.
  */
-async function fetchTVSchedule(auth, matchesCollector = [], skipCalendarUpdate = false) {
+export async function fetchTVSchedule(auth, matchesCollector = [], skipCalendarUpdate = false) {
     const url = 'https://www.gazzetta.gr/gztfeeds/tvschedule-v2';
     const response = await fetch(url);
     const data = await response.json();
@@ -57,7 +57,5 @@ async function fetchTVSchedule(auth, matchesCollector = [], skipCalendarUpdate =
 
     return matches;
 }
-
-module.exports = { fetchTVSchedule };
 
 

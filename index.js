@@ -1,6 +1,6 @@
-const { authorize } = require('./src/auth');
-const { fetchTVSchedule } = require('./src/fetchSchedule');
-const { interval } = require('./src/config');
+import { authorize } from './src/auth.js';
+import { fetchTVSchedule } from './src/fetchSchedule.js';
+import { interval } from './src/config.js';
 
 // Function to start the script
 async function startScript() {
@@ -8,6 +8,7 @@ async function startScript() {
         await authorize(fetchTVSchedule);
     } catch (error) {
         console.error('Error executing script:', error);
+        console.error('Error details:', error.message);
     }
 }
 
