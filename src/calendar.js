@@ -7,14 +7,23 @@ import { createHash } from './utils.js';
  * @param {Object} match - Match details to add as an event.
  */
 export async function addEvent(auth, match) {
+    console.log(match);
     const calendar = google.calendar({ version: 'v3', auth });
 
-    const [day, month, year] = match.date.split('/');
+    let year, month, day;
+
+    if (match.date.includes('/')) {
+        // Gazzetta format: DD/MM/YYYY
+        [day, month, year] = match.date.split('/');
+    } else {
+        // 24Media format: YYYY-MM-DD
+        [year, month, day] = match.date.split('-');
+    }
     const startDateTime = `${year}-${month}-${day}T${match.time}:00`;
 
     const [hours, minutes] = match.time.split(':').map(Number);
-    const endHours = hours + Math.floor((minutes + 90) / 60);
-    const endMinutes = (minutes + 90) % 60;
+    const endHours = hours + Math.floor((minutes + 120) / 60);
+    const endMinutes = (minutes + 120) % 60;
     const endDateTime = `${year}-${month}-${day}T${endHours.toString().padStart(2, '0')}:${endMinutes.toString().padStart(2, '0')}:00`;
 
     try {

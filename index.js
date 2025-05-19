@@ -1,20 +1,22 @@
+// index.js
+
 import { authorize } from './src/auth.js';
-import { fetchTVSchedule } from './src/fetchSchedule.js';
+import { runIntegration } from './src/integrationSelector.js';
 import { interval } from './src/config.js';
 
-// Function to start the script
+// Choose integration source here: 'gazzetta' or '24media'
+const SOURCE = '24media'; // or use process.env.SOURCE or a CLI arg
+
 async function startScript() {
-    try {
-        await authorize(fetchTVSchedule);
-    } catch (error) {
-        console.error('Error executing script:', error);
-        console.error('Error details:', error.message);
-    }
+  try {
+    await authorize(async (auth) => {
+      await runIntegration(auth, SOURCE);
+    });
+  } catch (error) {
+    console.error('Error executing script:', error);
+    console.error('Error details:', error.message);
+  }
 }
 
-// Execute the script immediately
 startScript();
-
-// Set up the interval to execute the script periodically
 setInterval(startScript, interval);
-
