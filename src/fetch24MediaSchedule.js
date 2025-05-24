@@ -2,10 +2,17 @@ import fetch from 'node-fetch';
 import { createHash } from './utils.js';
 import { teams, sports, leagues } from './config.js';
 
+function today() {
+  const today = new Date();
+  const formatted = today.toISOString().split('T')[0];
+  return formatted;
+}
+
 export async function fetch24MediaSchedule() {
-  const url = 'https://tv.24media.gr/service/events?accept=json&date=2025-05-19&days=7&pId=3';
+  const url = `https://tv.24media.gr/service/events?accept=json&date=${today()}&days=7&pId=3`;
   const response = await fetch(url);
   const data = await response.json();
+
 
   const normalize = str =>
     str.trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -27,7 +34,7 @@ export async function fetch24MediaSchedule() {
       event.description && (event.description.includes(league) || event.title.includes(league))
     )
   );
-  
+
 
   return filtered.map(event => ({
     title: event.title,
