@@ -3,6 +3,7 @@ import axios from 'axios';
 import TeamsList from './TeamsList';
 import LeaguesList from './LeaguesList';
 import MatchesList from './MatchesList';
+import SourceSelector from './SourceSelector';
 import { SearchIcon, RefreshIcon, ExpandMoreIcon, ExpandLessIcon, 
          ClearIcon, SoccerIcon, BasketballIcon } from '../icons/icons';
 import '../styles/styles.css';
@@ -13,6 +14,7 @@ const TEAMS_STORAGE_KEY = 'sportsCalendar_selectedTeams';
 const LEAGUES_STORAGE_KEY = 'sportsCalendar_selectedLeagues';
 const TEAMS_EXPANDED_KEY = 'sportsCalendar_teamsExpanded';
 const LEAGUES_EXPANDED_KEY = 'sportsCalendar_leaguesExpanded';
+const DATA_SOURCE_KEY = 'sportsCalendar_dataSource';
 
 const TeamFilter = () => {
     // State management
@@ -25,6 +27,9 @@ const TeamFilter = () => {
     const [dataLoading, setDataLoading] = useState(true);
     const [teamSearchTerm, setTeamSearchTerm] = useState('');
     const [leagueSearchTerm, setLeagueSearchTerm] = useState('');
+    const [dataSource, setDataSource] = useState(() => 
+        loadFromStorage(DATA_SOURCE_KEY, 'gazzetta')
+    );
     
     // Load expansion states from localStorage
     const [teamsExpanded, setTeamsExpanded] = useState(() => 
@@ -45,17 +50,29 @@ const TeamFilter = () => {
         const newState = !leaguesExpanded;
         setLeaguesExpanded(newState);
         saveToStorage(LEAGUES_EXPANDED_KEY, newState);
-    }, [leaguesExpanded]);
-
+    }, [leaguesExpanded]);    // Handle data source change
+    const handleSourceChange = useCallback((source) => {
+        setDataSource(source);
+        saveToStorage(DATA_SOURCE_KEY, source);
+        // Clear teams and leagues when source changes
+        setSelectedTeams([]);
+        setSelectedLeagues([]);
+        setMatches([]);
+        saveToStorage(TEAMS_STORAGE_KEY, []);
+        saveToStorage(LEAGUES_STORAGE_KEY, []);
+        // No need to call fetchData here as it will be triggered by the useEffect
+        // that depends on dataSource
+    }, []);
+    
     // Load data from API
-    const fetchData = useCallback(async () => {
+    const fetchData = useCallback(async (source = dataSource) => {
         setDataLoading(true);
         try {
-            const response = await axios.get('http://localhost:3001/api/teams');
+            const response = await axios.get(`http://localhost:3001/api/teams?source=${source}`);
             const sortedTeams = response.data.sort();
             setTeams(sortedTeams);
             
-            const leaguesResponse = await axios.get('http://localhost:3001/api/leagues');
+            const leaguesResponse = await axios.get(`http://localhost:3001/api/leagues?source=${source}`);
             const sortedLeagues = leaguesResponse.data.sort();
             setLeagues(sortedLeagues);
             
@@ -66,7 +83,7 @@ const TeamFilter = () => {
         } finally {
             setDataLoading(false);
         }
-    }, []);
+    }, [dataSource]);
 
     // Restore selections from localStorage
     const restoreSelections = useCallback((availableTeams, availableLeagues) => {
@@ -91,12 +108,11 @@ const TeamFilter = () => {
                 saveToStorage(LEAGUES_STORAGE_KEY, validLeagues);
             }
         }
-    }, []);
-
-    // Initial data load
+    }, []);    // Initial data load - fetch the data whenever dataSource changes
     useEffect(() => {
-        fetchData();
-    }, [fetchData]);
+        console.log(`Fetching data for source: ${dataSource}`);
+        fetchData(dataSource);
+    }, [dataSource]); // Only depend on dataSource, not fetchData
 
     // Handle team selection/deselection
     const handleTeamChange = useCallback((team) => {
@@ -120,15 +136,14 @@ const TeamFilter = () => {
             saveToStorage(LEAGUES_STORAGE_KEY, newSelection);
             return newSelection;
         });
-    }, []);
-
-    // Fetch matches
+    }, []);    // Fetch matches
     const fetchMatches = useCallback(async () => {
         setLoading(true);
         try {
             const response = await axios.post('http://localhost:3001/api/schedule', {
                 selectedTeams,
-                selectedLeagues
+                selectedLeagues,
+                source: dataSource
             });
             setMatches(response.data);
         } catch (error) {
@@ -136,7 +151,7 @@ const TeamFilter = () => {
         } finally {
             setLoading(false);
         }
-    }, [selectedTeams, selectedLeagues]);
+    }, [selectedTeams, selectedLeagues, dataSource]);
 
     // Filter teams and leagues based on search term
     const filteredTeams = teams.filter(team => 
@@ -149,11 +164,10 @@ const TeamFilter = () => {
     
     // Clear search input handlers
     const clearTeamSearch = () => setTeamSearchTerm('');
-    const clearLeagueSearch = () => setLeagueSearchTerm('');
-
-    return (
+    const clearLeagueSearch = () => setLeagueSearchTerm('');    return (
         <div className="container">
             <h1 className="main-title">Sports Matches Calendar</h1>
+            <SourceSelector selectedSource={dataSource} onSourceChange={handleSourceChange} />
             
             <div className="grid">
                 {/* Teams Panel */}

@@ -341,6 +341,51 @@ body {
   gap: 0.5rem;
 }
 
+.match-action {
+  grid-column: 1 / -1;
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.calendar-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 130px;
+  transition: background-color 0.2s ease;
+}
+
+.calendar-button:hover {
+  background-color: #303f9f; /* Slightly darker shade of primary color */
+}
+
+.calendar-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.button-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top: 2px solid white;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 .match-detail {
   display: inline-flex;
 }
@@ -484,4 +529,120 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Toast Notification */
+.toast-container {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  pointer-events: none;
+}
+
+.toast-notification {
+  padding: 8px 16px;
+  min-width: 250px;
+  border-radius: 4px;
+  color: white;
+  font-size: 0.875rem;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s, transform 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+}
+
+.toast-notification.success {
+  background-color: #4caf50;
+}
+
+.toast-notification.error {
+  background-color: #f44336;
+}
+
+.toast-notification.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.toast-notification.hide {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+/* Source Selector */
+.source-selector {
+  background-color: var(--surface-color);
+  border-radius: var(--panel-radius);
+  box-shadow: var(--box-shadow);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.source-selector h3 {
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+.source-options {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.source-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  transition: all 0.2s ease;
+}
+
+.source-label:hover {
+  border-color: var(--primary-color);
+  background-color: rgba(63, 81, 181, 0.08);
+}
+
+.source-input {
+  margin-right: 0.5rem;
+  accent-color: var(--primary-color);
+}
+
+.source-input:checked + .source-text {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+/* Source Badge */
+.source-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+  font-weight: 500;
+}
+
+.source-badge.gazzetta {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.source-badge.media24 {
+  background-color: #f50057;
+  color: white;
 }

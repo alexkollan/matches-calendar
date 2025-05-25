@@ -1,0 +1,3 @@
+@echo off
+echo Starting Unified Server with Calendar Integration...
+node unifiedServer.js

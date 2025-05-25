@@ -1,0 +1,45 @@
+/* Add to Calendar Button Styles */
+.match-action {
+  grid-column: 1 / -1;
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.calendar-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 130px;
+  transition: background-color 0.2s ease;
+}
+
+.calendar-button:hover {
+  background-color: #303f9f; /* Slightly darker shade of primary color */
+}
+
+.calendar-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.button-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top: 2px solid white;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

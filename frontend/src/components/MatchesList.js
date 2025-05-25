@@ -1,8 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { SoccerIcon, BasketballIcon } from '../icons/icons';
+import axios from 'axios';
 import '../styles/styles.css';
+import { showToast } from './ToastContainer';
 
 const MatchesList = React.memo(({ matches }) => {
+    const [addingToCalendar, setAddingToCalendar] = useState({});
+
+    const handleAddToCalendar = async (match) => {
+        setAddingToCalendar(prev => ({ ...prev, [match.id]: true }));
+        try {
+            await axios.post('http://localhost:3001/api/calendar/add', match);
+            showToast(`"${match.title}" has been added to your calendar!`, 'success');
+        } catch (error) {
+            console.error('Error adding match to calendar:', error);
+            showToast('Failed to add match to calendar. Please try again.', 'error');
+        } finally {
+            setAddingToCalendar(prev => ({ ...prev, [match.id]: false }));
+        }
+    };
+
     return (
         <ul className="matches-list">
             {matches.map((match) => (
@@ -26,9 +43,29 @@ const MatchesList = React.memo(({ matches }) => {
                         </div>
                         <div className="match-detail">
                             <strong>Channel:</strong> {match.channel}
-                        </div>
-                        <div className="match-detail">
+                        </div>                        <div className="match-detail">
                             <strong>League:</strong> {match.league}
+                        </div>
+                        {match.source && (
+                            <div className="match-detail">
+                                <strong>Source:</strong> 
+                                <span className={`source-badge ${match.source}`}>
+                                    {match.source === 'gazzetta' ? 'Gazzetta' : '24 Media'}
+                                </span>
+                            </div>
+                        )}
+                        <div className="match-action">
+                            <button 
+                                onClick={() => handleAddToCalendar(match)}
+                                className="calendar-button"
+                                disabled={addingToCalendar[match.id]}
+                            >
+                                {addingToCalendar[match.id] ? (
+                                    <span className="button-spinner"></span>
+                                ) : (
+                                    "Add to Calendar"
+                                )}
+                            </button>
                         </div>
                     </div>
                 </li>
