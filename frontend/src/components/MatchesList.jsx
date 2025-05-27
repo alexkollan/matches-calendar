@@ -36,19 +36,19 @@ const MatchesList = React.memo(({ matches }) => {
                     </div>
                     <div className="match-details">
                         <div className="match-detail">
-                            <strong>Date:</strong> {match.date}
+                            <strong>Date: </strong>&nbsp; {match.date}
                         </div>
                         <div className="match-detail">
-                            <strong>Time:</strong> {match.time}
+                            <strong>Time: </strong>&nbsp; {match.time}
                         </div>
                         <div className="match-detail">
-                            <strong>Channel:</strong> {match.channel}
+                            <strong>Channel: </strong>&nbsp; {match.channel}
                         </div>                        <div className="match-detail">
-                            <strong>League:</strong> {match.league}
+                            <strong>League: </strong>&nbsp; {match.league}
                         </div>
                         {match.source && (
                             <div className="match-detail">
-                                <strong>Source:</strong> 
+                                <strong>Source: </strong>&nbsp;
                                 <span className={`source-badge ${match.source}`}>
                                     {match.source === 'gazzetta' ? 'Gazzetta' : '24 Media'}
                                 </span>
