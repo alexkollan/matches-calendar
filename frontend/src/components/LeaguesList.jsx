@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/styles.css';
 
 const LeaguesList = React.memo(({ filteredLeagues, selectedLeagues, handleLeagueChange }) => {
     if (filteredLeagues.length === 0) {

@@ -12,7 +12,4 @@ export default defineConfig({
       '@': '/src', // Simplify imports by using @ as an alias for /src
     },
   },
-  optimizeDeps: {
-    include: ['@emotion/react', '@emotion/styled'],
-  },
 });

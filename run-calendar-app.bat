@@ -1,3 +1,0 @@
-@echo off
-echo Starting the Unified Sports Calendar Application...
-powershell -ExecutionPolicy Bypass -File "%~dp0\start-unified-app.ps1"

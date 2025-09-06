@@ -6,7 +6,6 @@ import MatchesList from './MatchesList';
 import SourceSelector from './SourceSelector';
 import { SearchIcon, RefreshIcon, ExpandMoreIcon, ExpandLessIcon, 
          ClearIcon, SoccerIcon, BasketballIcon } from '../icons/icons';
-import '../styles/styles.css';
 import { saveToStorage, loadFromStorage } from '../utils/storage';
 
 // Storage keys
