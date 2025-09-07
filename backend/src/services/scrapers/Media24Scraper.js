@@ -12,7 +12,7 @@ export class Media24Scraper extends BaseScraper {
       name: '24media',
       baseUrl: 'https://tv.24media.gr',
       rateLimit: 20, // 20 requests per minute
-      cacheTime: 600, // 10 minutes
+      cacheTime: 0, // Temporarily disable cache to test
       headers: {
         'Referer': 'https://tv.24media.gr/',
         'Accept': 'application/json'
@@ -34,18 +34,20 @@ export class Media24Scraper extends BaseScraper {
    */
   async fetchEvents(startDate = null, endDate = null, filters = {}) {
     try {
-      const today = startDate ? this.formatDate(startDate) : this.formatDate(new Date());
-      const days = endDate ? this.calculateDaysDiff(startDate, endDate) : 7;
+      // ALWAYS use today's date as the start - we don't want past events
+      const today = this.formatDate(new Date());
+      const days = 7; // Always look 7 days ahead from today
       
       const endpoint = '/service/events';
       const params = {
         accept: 'json',
-        date: today,
-        days: Math.min(days, 30), // Limit to 30 days max
+        date: today, // Start from today
+        days: days,  // Look 7 days forward
         pId: 3
       };
 
       logger.info(`Fetching 24Media events from ${today} for ${days} days`);
+      logger.info(`24Media API URL: ${this.baseUrl}${endpoint}?accept=${params.accept}&date=${params.date}&days=${params.days}&pId=${params.pId}`);
       const data = await this.cachedRequest(endpoint, params);
       
       if (!Array.isArray(data)) {

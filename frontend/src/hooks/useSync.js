@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import syncService from '../services/sync.js';
 
 /**
@@ -246,7 +246,7 @@ export function useSync() {
     return () => clearInterval(interval);
   }, [refreshSyncStatus]);
 
-  return {
+  return useMemo(() => ({
     // Status
     syncStatus,
     syncHistory,
@@ -274,5 +274,21 @@ export function useSync() {
     lastSyncTimeAgo: syncStatus.lastSyncTime ? 
       Math.floor((Date.now() - new Date(syncStatus.lastSyncTime)) / 60000) : null,
     nextSyncIn: getTimeUntilNextSync()
-  };
+  }), [
+    syncStatus,
+    syncHistory,
+    loading,
+    error,
+    executeManualSync,
+    startAutoSync,
+    stopAutoSync,
+    previewSync,
+    refreshAllSyncedEvents,
+    clearAllSyncedEvents,
+    testSync,
+    refreshSyncStatus,
+    refreshSyncHistory,
+    getSyncSuccessRate,
+    getTimeUntilNextSync
+  ]);
 }

@@ -83,7 +83,7 @@ export const AppConstants = {
   MIN_SYNC_INTERVAL: 30, // minutes
   MAX_SYNC_INTERVAL: 1440, // 24 hours
   DEFAULT_SYNC_INTERVAL: 60,
-  MAX_EVENTS_PER_REQUEST: 100,
+  MAX_EVENTS_PER_REQUEST: 10000, // Very high limit to allow all events
   CACHE_TTL: 300, // seconds
   DEFAULT_DATE_RANGE: 7, // days
   MAX_DATE_RANGE: 30 // days

@@ -1,8 +1,9 @@
-import React, { createContext, useContext, useReducer, useEffect } from 'react';
+import React, { createContext, useContext, useReducer, useEffect, useMemo, useCallback } from 'react';
 import { useAuth } from '../hooks/useAuth.js';
 import { useEvents } from '../hooks/useEvents.js';
 import { useSync } from '../hooks/useSync.js';
 import DatabaseService from '../services/db.js';
+import FilterService from '../services/filterService.js';
 
 /**
  * Global    const savePreferences = async () => {
@@ -41,6 +42,11 @@ const initialState = {
         end: null
       },
       showPastEvents: false
+    },
+    advancedFilters: {
+      currentFilters: [],
+      savedSets: [],
+      lastUpdated: null
     },
     ui: {
       theme: 'dark',
@@ -84,6 +90,8 @@ const ActionTypes = {
   SET_SELECTED_SPORTS: 'SET_SELECTED_SPORTS',
   UPDATE_CALENDAR_SETTINGS: 'UPDATE_CALENDAR_SETTINGS',
   UPDATE_UI_SETTINGS: 'UPDATE_UI_SETTINGS',
+  UPDATE_ADVANCED_FILTERS: 'UPDATE_ADVANCED_FILTERS',
+  SET_ADVANCED_FILTERS: 'SET_ADVANCED_FILTERS',
   
   // Data
   SET_EVENTS: 'SET_EVENTS',
@@ -166,6 +174,27 @@ function appReducer(state, action) {
             ...state.preferences.ui,
             ...action.payload
           }
+        }
+      };
+
+    case ActionTypes.UPDATE_ADVANCED_FILTERS:
+      return {
+        ...state,
+        preferences: {
+          ...state.preferences,
+          advancedFilters: {
+            ...state.preferences.advancedFilters,
+            ...action.payload
+          }
+        }
+      };
+
+    case ActionTypes.SET_ADVANCED_FILTERS:
+      return {
+        ...state,
+        preferences: {
+          ...state.preferences,
+          advancedFilters: action.payload
         }
       };
       
@@ -330,8 +359,8 @@ export function AppProvider({ children }) {
     return () => clearTimeout(timeoutId);
   }, [state.preferences]);
 
-  // Action creators
-  const actions = {
+  // Memoized action creators to prevent unnecessary re-renders
+  const actions = useMemo(() => ({
     // Preferences
     setPreferences: (preferences) => 
       dispatch({ type: ActionTypes.SET_PREFERENCES, payload: preferences }),
@@ -354,6 +383,13 @@ export function AppProvider({ children }) {
     updateUISettings: (settings) => 
       dispatch({ type: ActionTypes.UPDATE_UI_SETTINGS, payload: settings }),
     
+    // Advanced Filters
+    updateAdvancedFilters: (filters) => 
+      dispatch({ type: ActionTypes.UPDATE_ADVANCED_FILTERS, payload: filters }),
+    
+    setAdvancedFilters: (filters) => 
+      dispatch({ type: ActionTypes.SET_ADVANCED_FILTERS, payload: filters }),
+    
     // Data
     setEvents: (events) => 
       dispatch({ type: ActionTypes.SET_EVENTS, payload: events }),
@@ -374,23 +410,6 @@ export function AppProvider({ children }) {
     clearError: () => 
       dispatch({ type: ActionTypes.CLEAR_ERROR }),
     
-    addNotification: (notification) => {
-      const id = Date.now().toString();
-      dispatch({
-        type: ActionTypes.ADD_NOTIFICATION,
-        payload: { id, ...notification }
-      });
-      
-      // Auto-remove notification after timeout
-      if (notification.autoHide !== false) {
-        setTimeout(() => {
-          actions.removeNotification(id);
-        }, notification.duration || 5000);
-      }
-      
-      return id;
-    },
-    
     removeNotification: (id) => 
       dispatch({ type: ActionTypes.REMOVE_NOTIFICATION, payload: id }),
     
@@ -399,20 +418,33 @@ export function AppProvider({ children }) {
     
     toggleSidebar: () => 
       dispatch({ type: ActionTypes.TOGGLE_SIDEBAR })
-  };
+  }), [dispatch]);
 
-  // Computed values
-  const computed = {
-    // Check if any teams/leagues/sports are selected
-    hasSelections: 
-      state.preferences.selectedTeams.length > 0 ||
-      state.preferences.selectedLeagues.length > 0 ||
-      state.preferences.selectedSports.length > 0,
+  // Special action with closure for auto-remove functionality
+  const addNotification = useCallback((notification) => {
+    const id = Date.now().toString();
+    dispatch({
+      type: ActionTypes.ADD_NOTIFICATION,
+      payload: { id, ...notification }
+    });
     
-    // Get filtered events based on preferences
-    filteredEvents: events.events?.filter(event => {
-      const prefs = state.preferences;
-      
+    // Auto-remove notification after timeout
+    if (notification.autoHide !== false) {
+      setTimeout(() => {
+        dispatch({ type: ActionTypes.REMOVE_NOTIFICATION, payload: id });
+      }, notification.duration || 5000);
+    }
+    
+    return id;
+  }, [dispatch]);
+
+  // Memoized filtered events to prevent excessive re-renders
+  const filteredEvents = useMemo(() => {
+    const prefs = state.preferences;
+    let filtered = events.events || [];
+    
+    // Apply basic filters first
+    filtered = filtered.filter(event => {
       // Filter by selected teams
       if (prefs.selectedTeams.length > 0) {
         const hasTeam = prefs.selectedTeams.some(teamId => 
@@ -450,18 +482,54 @@ export function AppProvider({ children }) {
       }
       
       return true;
-    }) || [],
+    });
+    
+    // Apply advanced keyword filters
+    if (prefs.advancedFilters?.currentFilters?.length > 0) {
+      filtered = FilterService.applyAdvancedFilters(filtered, prefs.advancedFilters.currentFilters);
+    }
+    
+    return filtered;
+  }, [
+    events.events,
+    state.preferences.selectedTeams,
+    state.preferences.selectedLeagues,
+    state.preferences.selectedSports,
+    state.preferences.filters.dateRange,
+    state.preferences.filters.showPastEvents,
+    state.preferences.advancedFilters?.currentFilters
+  ]);
+
+  // Memoized computed values
+  const computed = useMemo(() => ({
+    // Check if any teams/leagues/sports are selected
+    hasSelections: 
+      state.preferences.selectedTeams.length > 0 ||
+      state.preferences.selectedLeagues.length > 0 ||
+      state.preferences.selectedSports.length > 0,
+    
+    // Filtered events (now memoized above)
+    filteredEvents,
     
     // Check if app is ready
     isReady: !auth.loading && events?.metadata?.sports?.length > 0
-  };
+  }), [
+    state.preferences.selectedTeams.length,
+    state.preferences.selectedLeagues.length,
+    state.preferences.selectedSports.length,
+    filteredEvents,
+    auth.loading,
+    events?.metadata?.sports?.length
+  ]);
 
-  const contextValue = {
+  // Memoized context value to prevent unnecessary re-renders
+  const contextValue = useMemo(() => ({
     // State
     state,
     
     // Actions
     ...actions,
+    addNotification, // Add the separately memoized function
     
     // Computed
     ...computed,
@@ -470,7 +538,7 @@ export function AppProvider({ children }) {
     auth,
     events,
     sync
-  };
+  }), [state, actions, addNotification, computed, auth, events, sync]);
 
   return (
     <AppContext.Provider value={contextValue}>

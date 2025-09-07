@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import apiClient from '../services/api.js';
 import DatabaseService from '../services/db.js';
 
@@ -25,6 +25,7 @@ export function useEvents() {
 
       const params = {
         sources: sources, // Send as array, not string
+        startDate: filters.startDate || new Date().toISOString().split('T')[0], // Always include today's date
         ...filters
       };
 
@@ -274,7 +275,7 @@ export function useEvents() {
     };
   }, [fetchSyncedEvents]);
 
-  return {
+  return useMemo(() => ({
     // Data
     events,
     syncedEvents,
@@ -299,5 +300,21 @@ export function useEvents() {
     // Computed
     eventCount: events.length,
     syncedEventCount: syncedEvents.length
-  };
+  }), [
+    events,
+    syncedEvents,
+    metadata,
+    loading,
+    error,
+    fetchEvents,
+    fetchSyncedEvents,
+    fetchMetadata,
+    addToCalendar,
+    removeFromCalendar,
+    addBatchToCalendar,
+    isEventSynced,
+    getSyncedEvent,
+    searchEvents,
+    filterEvents
+  ]);
 }

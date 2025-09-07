@@ -61,14 +61,29 @@ class SyncService {
    */
   handleWorkerMessage(data) {
     switch (data.type) {
+      case 'WORKER_READY':
+        console.log('Sync worker is ready');
+        break;
       case 'SYNC_TRIGGERED':
         this.executeManualSync();
+        break;
+      case 'AUTO_SYNC_STARTED':
+        console.log('Auto-sync started in worker with interval:', data.interval);
+        break;
+      case 'AUTO_SYNC_STOPPED':
+        console.log('Auto-sync stopped in worker');
+        break;
+      case 'CONFIG_UPDATED':
+        console.log('Worker config updated');
         break;
       case 'SYNC_COMPLETE':
         this.handleSyncComplete(data.result);
         break;
       case 'SYNC_ERROR':
         this.handleSyncError(data.error);
+        break;
+      case 'WORKER_ERROR':
+        console.error('Worker error:', data.error);
         break;
       default:
         console.warn('Unknown worker message:', data);

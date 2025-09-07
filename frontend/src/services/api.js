@@ -17,22 +17,25 @@ class ApiClient {
       }
     });
 
-    // Track authentication state
-    this.isAuthenticated = false;
-    this.authTokens = null;
+    // Cache tokens to avoid database calls on every request
+    this.cachedTokens = null;
+    this.lastTokenCheck = 0;
+    this.TOKEN_CACHE_DURATION = 60000; // 1 minute cache
 
     // Add request interceptor for authentication
     this.client.interceptors.request.use(
       async (config) => {
-        const tokens = await this.getStoredTokens();
-        console.log('API Client: Stored tokens:', tokens ? 'Found' : 'Not found');
-        if (tokens?.accessToken) {
+        // Use cached tokens if available and recent
+        const now = Date.now();
+        if (!this.cachedTokens || (now - this.lastTokenCheck) > this.TOKEN_CACHE_DURATION) {
+          this.cachedTokens = await this.getStoredTokens();
+          this.lastTokenCheck = now;
+        }
+        
+        if (this.cachedTokens?.accessToken) {
           // Encode tokens as base64 for simplicity (in production, use proper JWT)
-          const tokenString = btoa(JSON.stringify(tokens));
+          const tokenString = btoa(JSON.stringify(this.cachedTokens));
           config.headers.Authorization = `Bearer ${tokenString}`;
-          console.log('API Client: Added Authorization header');
-        } else {
-          console.log('API Client: No valid tokens found');
         }
         return config;
       },
@@ -400,6 +403,9 @@ class ApiClient {
   async storeTokens(tokens) {
     try {
       await DatabaseService.storeAuthTokens('google', tokens);
+      // Clear cached tokens so they get refreshed on next request
+      this.cachedTokens = null;
+      this.lastTokenCheck = 0;
     } catch (error) {
       console.error('Failed to store tokens:', error);
       throw error;
@@ -413,6 +419,11 @@ class ApiClient {
       console.error('Failed to get stored tokens:', error);
       return null;
     }
+  }
+
+  clearTokenCache() {
+    this.cachedTokens = null;
+    this.lastTokenCheck = 0;
   }
 
   async removeTokens() {

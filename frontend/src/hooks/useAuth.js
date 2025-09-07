@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import apiService from '../services/api.js';
 
 /**
@@ -201,18 +201,27 @@ export function useAuth() {
     return expiryTime <= fiveMinutesFromNow;
   }, [authStatus.tokenExpiry]);
 
-  // Auto-refresh token if it's expiring soon
+  // Auto-refresh token if it's expiring soon (with throttling)
   useEffect(() => {
-    if (authStatus.isAuthenticated && isTokenExpiringSoon()) {
+    if (!authStatus.isAuthenticated || !authStatus.tokenExpiry) return;
+    
+    const isExpiringSoon = isTokenExpiringSoon();
+    if (isExpiringSoon && !hasCheckedAuth.current) {
+      // Only refresh once per auth session
+      hasCheckedAuth.current = true;
       refreshToken().catch(() => {
         // Token refresh failed, handled in refreshToken function
+        hasCheckedAuth.current = false; // Allow retry on next render
       });
     }
-  }, [authStatus.isAuthenticated, isTokenExpiringSoon, refreshToken]);
+  }, [authStatus.isAuthenticated, authStatus.tokenExpiry, isTokenExpiringSoon, refreshToken]);
 
   // Check auth status on mount and check for localStorage fallback
   useEffect(() => {
     const initializeAuth = async () => {
+      // Prevent multiple initializations
+      if (hasCheckedAuth.current) return;
+      
       // Check for localStorage fallback tokens first
       try {
         const authSuccess = localStorage.getItem('google_auth_success');
@@ -239,7 +248,7 @@ export function useAuth() {
     };
     
     initializeAuth();
-  }, [checkAuthStatus]);
+  }, []); // Remove checkAuthStatus dependency to prevent infinite loop
 
   // Listen for auth events from other parts of the app
   useEffect(() => {
@@ -269,13 +278,16 @@ export function useAuth() {
     if (!authStatus.isAuthenticated) return;
 
     const interval = setInterval(() => {
-      checkAuthStatus();
-    }, 15 * 60 * 1000); // Every 15 minutes instead of 5
+      // Only check if we're not already checking
+      if (!hasCheckedAuth.current) {
+        checkAuthStatus();
+      }
+    }, 30 * 60 * 1000); // Every 30 minutes to reduce frequency
 
     return () => clearInterval(interval);
-  }, [authStatus.isAuthenticated, checkAuthStatus]);
+  }, [authStatus.isAuthenticated]); // Remove checkAuthStatus dependency
 
-  return {
+  return useMemo(() => ({
     // Status
     isAuthenticated: authStatus.isAuthenticated,
     user: authStatus.user,
@@ -296,5 +308,19 @@ export function useAuth() {
     isTokenExpiringSoon: isTokenExpiringSoon(),
     timeUntilExpiry: authStatus.tokenExpiry ? 
       Math.max(0, new Date(authStatus.tokenExpiry) - new Date()) : null
-  };
+  }), [
+    authStatus.isAuthenticated,
+    authStatus.user,
+    authStatus.loading,
+    authStatus.tokenExpiry,
+    authStatus.scopes,
+    error,
+    initiateAuth,
+    handleAuthCallback,
+    refreshToken,
+    signOut,
+    testAuth,
+    checkAuthStatus,
+    isTokenExpiringSoon
+  ]);
 }

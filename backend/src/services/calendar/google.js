@@ -311,7 +311,7 @@ class GoogleCalendarService {
             { method: 'popup', minutes: 60 }
           ]
         },
-        colorId: this.getColorForSport(event.sport),
+        colorId: event.colorId || this.getColorForSport(event.sport),
         source: {
           title: 'Sports Calendar',
           url: 'https://matches-calendar.app'

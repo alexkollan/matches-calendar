@@ -9,12 +9,23 @@ class MatchesDatabase extends Dexie {
     super('MatchesCalendarDB');
     
     // Define database schema
-    this.version(1).stores({
+    this.version(2).stores({
       preferences: 'id',                    // User preferences
       syncedEvents: 'id, eventId, googleCalendarEventId, status, syncedAt, sport, organization', // Synced events with indexes
       eventCache: 'id, dataSource, timestamp, sport', // Cached API responses
       authTokens: 'id, provider',          // Authentication tokens
-      syncHistory: '++id, timestamp, status' // Sync operation history
+      syncHistory: '++id, timestamp, status', // Sync operation history
+      eventColors: 'eventId, colorId, updatedAt' // Event color preferences
+    }).upgrade(trans => {
+      // Migration logic for existing users
+      return trans.preferences.toCollection().modify(prefs => {
+        if (!prefs.eventColors) {
+          prefs.eventColors = {
+            defaultColorId: '10', // Basil (green) as default
+            lastUpdated: null
+          };
+        }
+      });
     });
 
     // Define hooks for data validation
@@ -58,6 +69,11 @@ export class DatabaseService {
             sports: [],
             dateRange: 7
           },
+          advancedFilters: {
+            currentFilters: [],
+            savedSets: [],
+            lastUpdated: null
+          },
           notifications: {
             minutesBefore: [30, 60],
             emailNotification: false,
@@ -67,6 +83,10 @@ export class DatabaseService {
             calendarId: 'primary',
             isConnected: false,
             lastConnectedAt: null
+          },
+          eventColors: {
+            defaultColorId: '10', // Basil (green) as default
+            lastUpdated: null
           },
           createdAt: new Date(),
           updatedAt: new Date()
@@ -272,8 +292,6 @@ export class DatabaseService {
    * Store authentication tokens
    */
   static async storeAuthTokens(provider, tokens) {
-    console.log('🗃️ DatabaseService.storeAuthTokens called with:', { provider, tokens });
-    
     const authEntry = {
       id: provider,
       provider: provider,
@@ -281,16 +299,11 @@ export class DatabaseService {
       storedAt: new Date(),
       expiresAt: tokens.expiryDate ? new Date(tokens.expiryDate) : null
     };
-
-    console.log('📝 Storing auth entry:', authEntry);
     
     try {
       await db.authTokens.put(authEntry);
-      console.log('✅ Auth tokens stored successfully');
-      
-      // Verify storage
-      const stored = await db.authTokens.get(provider);
-      console.log('🔍 Verification - stored tokens:', stored);
+      // Only log success, not all the details
+      console.log('✅ Auth tokens stored successfully for', provider);
     } catch (error) {
       console.error('❌ Failed to store auth tokens:', error);
       throw error;
@@ -418,6 +431,180 @@ export class DatabaseService {
       db.authTokens.clear(),
       db.syncHistory.clear()
     ]);
+  }
+
+  /**
+   * Advanced Filters Management
+   */
+
+  /**
+   * Get advanced filters
+   */
+  static async getAdvancedFilters() {
+    const prefs = await this.getPreferences();
+    return prefs?.advancedFilters || { currentFilters: [], savedSets: [] };
+  }
+
+  /**
+   * Update advanced filters
+   */
+  static async updateAdvancedFilters(advancedFilters) {
+    return await this.updatePreferences({
+      advancedFilters: {
+        ...advancedFilters,
+        lastUpdated: new Date().toISOString()
+      }
+    });
+  }
+
+  /**
+   * Save a new filter set
+   */
+  static async saveFilterSet(name, filters) {
+    const prefs = await this.getPreferences();
+    const advancedFilters = prefs?.advancedFilters || { currentFilters: [], savedSets: [] };
+    
+    const newFilterSet = {
+      id: Date.now(),
+      name,
+      filters: [...filters],
+      createdAt: new Date().toISOString(),
+      lastUsed: new Date().toISOString()
+    };
+
+    const updatedSavedSets = [...advancedFilters.savedSets, newFilterSet];
+    
+    return await this.updateAdvancedFilters({
+      ...advancedFilters,
+      savedSets: updatedSavedSets
+    });
+  }
+
+  /**
+   * Delete a saved filter set
+   */
+  static async deleteFilterSet(filterSetId) {
+    const prefs = await this.getPreferences();
+    const advancedFilters = prefs?.advancedFilters || { currentFilters: [], savedSets: [] };
+    
+    const updatedSavedSets = advancedFilters.savedSets.filter(set => set.id !== filterSetId);
+    
+    return await this.updateAdvancedFilters({
+      ...advancedFilters,
+      savedSets: updatedSavedSets
+    });
+  }
+
+  /**
+   * Load a saved filter set
+   */
+  static async loadFilterSet(filterSetId) {
+    const prefs = await this.getPreferences();
+    const advancedFilters = prefs?.advancedFilters || { currentFilters: [], savedSets: [] };
+    
+    const filterSet = advancedFilters.savedSets.find(set => set.id === filterSetId);
+    if (!filterSet) {
+      throw new Error('Filter set not found');
+    }
+
+    // Update last used timestamp
+    const updatedSavedSets = advancedFilters.savedSets.map(set =>
+      set.id === filterSetId 
+        ? { ...set, lastUsed: new Date().toISOString() }
+        : set
+    );
+
+    await this.updateAdvancedFilters({
+      ...advancedFilters,
+      currentFilters: filterSet.filters,
+      savedSets: updatedSavedSets
+    });
+
+    return filterSet.filters;
+  }
+
+  /**
+   * Set color for a specific event
+   */
+  static async setEventColor(eventId, colorId) {
+    try {
+      await db.eventColors.put({
+        eventId: eventId,
+        colorId: colorId,
+        updatedAt: new Date()
+      });
+    } catch (error) {
+      console.error('Failed to set event color:', error);
+      throw error;
+    }
+  }
+
+  /**
+   * Get color for a specific event
+   */
+  static async getEventColor(eventId) {
+    try {
+      const colorRecord = await db.eventColors.get(eventId);
+      if (colorRecord) {
+        return colorRecord.colorId;
+      }
+      
+      // Return default color if no specific color is set
+      const prefs = await this.getPreferences();
+      return prefs?.eventColors?.defaultColorId || '10'; // Default to Basil
+    } catch (error) {
+      console.error('Failed to get event color:', error);
+      return '10'; // Fallback to default
+    }
+  }
+
+  /**
+   * Get colors for multiple events
+   */
+  static async getEventColors(eventIds) {
+    try {
+      const colorRecords = await db.eventColors.where('eventId').anyOf(eventIds).toArray();
+      const prefs = await this.getPreferences();
+      const defaultColor = prefs?.eventColors?.defaultColorId || '10';
+      
+      const colorMap = {};
+      eventIds.forEach(eventId => {
+        const record = colorRecords.find(r => r.eventId === eventId);
+        colorMap[eventId] = record ? record.colorId : defaultColor;
+      });
+      
+      return colorMap;
+    } catch (error) {
+      console.error('Failed to get event colors:', error);
+      // Return default colors for all events
+      const defaultColor = '10';
+      const colorMap = {};
+      eventIds.forEach(eventId => {
+        colorMap[eventId] = defaultColor;
+      });
+      return colorMap;
+    }
+  }
+
+  /**
+   * Update default event color
+   */
+  static async updateDefaultEventColor(colorId) {
+    try {
+      const prefs = await this.getPreferences();
+      if (prefs) {
+        await this.updatePreferences({
+          eventColors: {
+            ...prefs.eventColors,
+            defaultColorId: colorId,
+            lastUpdated: new Date()
+          }
+        });
+      }
+    } catch (error) {
+      console.error('Failed to update default event color:', error);
+      throw error;
+    }
   }
 }
 

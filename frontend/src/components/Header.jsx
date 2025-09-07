@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo, useMemo, useCallback } from 'react';
 import { 
   AppBar, 
   Toolbar, 
@@ -28,12 +28,12 @@ import { useApp } from '../contexts/AppContext.jsx';
  * Header component
  * Shows current page info, user status, and quick actions
  */
-function Header() {
+const Header = memo(function Header() {
   const { auth, state, sync, clearError } = useApp();
   const location = useLocation();
 
-  // Get page info based on current route
-  const getPageInfo = () => {
+  // Get page info based on current route - memoized
+  const pageInfo = useMemo(() => {
     switch (location.pathname) {
       case '/':
       case '/events':
@@ -67,9 +67,20 @@ function Header() {
           icon: <Dashboard />
         };
     }
-  };
+  }, [location.pathname]);
 
-  const pageInfo = getPageInfo();
+  // Memoize callback functions
+  const handleClearError = useCallback(() => {
+    clearError();
+  }, [clearError]);
+
+  const handleRefresh = useCallback(() => {
+    window.location.reload();
+  }, []);
+
+  const handleLogout = useCallback(() => {
+    auth.logout();
+  }, [auth]);
 
   return (
     <AppBar position="sticky" color="default" elevation={1}>
@@ -94,7 +105,7 @@ function Header() {
             <Alert
               severity="error"
               variant="outlined"
-              onClose={clearError}
+              onClose={handleClearError}
               sx={{ py: 0 }}
             >
               {state.ui.error}
@@ -159,6 +170,6 @@ function Header() {
       </Toolbar>
     </AppBar>
   );
-}
+});
 
 export default Header;

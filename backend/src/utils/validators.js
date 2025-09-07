@@ -14,7 +14,7 @@ export const schemas = {
     sports: Joi.array().items(Joi.string().valid(...SportTypes)).optional(),
     startDate: Joi.date().iso().optional(),
     endDate: Joi.date().iso().min(Joi.ref('startDate')).optional(),
-    limit: Joi.number().integer().min(1).max(AppConstants.MAX_EVENTS_PER_REQUEST).default(50)
+    limit: Joi.number().integer().min(1).max(AppConstants.MAX_EVENTS_PER_REQUEST).optional()
   }),
 
   // User preferences validation

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Profiler, memo, useMemo } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider, CssBaseline, Box, CircularProgress, Typography } from '@mui/material';
 import { theme } from './theme.js';
@@ -12,11 +12,19 @@ import SyncPage from './pages/SyncPage.jsx';
 import ToastContainer from './components/ToastContainer.jsx';
 import { useApp } from './contexts/AppContext.jsx';
 
+// Performance profiler callback
+const onRenderCallback = (id, phase, actualDuration, baseDuration, startTime, commitTime) => {
+  // Only log slow renders (over 50ms)
+  if (actualDuration > 50) {
+    console.warn(`🐌 Slow render detected: ${id} (${phase}) took ${actualDuration.toFixed(2)}ms`);
+  }
+};
+
 /**
  * Protected route component
  * Redirects to auth page if not authenticated
  */
-function ProtectedRoute({ children }) {
+const ProtectedRoute = memo(function ProtectedRoute({ children }) {
   const { auth } = useApp();
   
   if (auth.loading) {
@@ -37,33 +45,37 @@ function ProtectedRoute({ children }) {
   }
   
   return children;
-}
+});
 
 /**
  * App routes component
  * Handles routing logic after context is available
  */
-function AppRoutes() {
+const AppRoutes = memo(function AppRoutes() {
   const { auth, isReady } = useApp();
+  
+  // Memoize loading screen to prevent re-renders
+  const loadingScreen = useMemo(() => (
+    <Box
+      display="flex"
+      alignItems="center"
+      justifyContent="center"
+      minHeight="100vh"
+    >
+      <Box textAlign="center">
+        <CircularProgress size={48} sx={{ mb: 2 }} />
+        <Typography color="text.secondary">Loading application...</Typography>
+      </Box>
+    </Box>
+  ), []);
   
   // Show loading screen while app initializes
   if (!isReady && auth.isAuthenticated) {
-    return (
-      <Box
-        display="flex"
-        alignItems="center"
-        justifyContent="center"
-        minHeight="100vh"
-      >
-        <Box textAlign="center">
-          <CircularProgress size={48} sx={{ mb: 2 }} />
-          <Typography color="text.secondary">Loading application...</Typography>
-        </Box>
-      </Box>
-    );
+    return loadingScreen;
   }
   
-  return (
+  // Memoize routes to prevent re-creation on every render
+  const routes = useMemo(() => (
     <Routes>
       {/* Public route */}
       <Route path="/auth" element={<AuthPage />} />
@@ -112,23 +124,29 @@ function AppRoutes() {
       {/* Catch all route */}
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
-  );
-}
+  ), []);
+  
+  return routes;
+});
 
 /**
  * Main App component
  */
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Router>
-        <AppProvider>
-          <AppRoutes />
-          <ToastContainer />
-        </AppProvider>
-      </Router>
-    </ThemeProvider>
+    <Profiler id="App" onRender={onRenderCallback}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Router>
+          <AppProvider>
+            <Profiler id="AppRoutes" onRender={onRenderCallback}>
+              <AppRoutes />
+            </Profiler>
+            <ToastContainer />
+          </AppProvider>
+        </Router>
+      </ThemeProvider>
+    </Profiler>
   );
 }
 
