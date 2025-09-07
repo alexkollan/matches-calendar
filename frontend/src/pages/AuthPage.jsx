@@ -57,11 +57,25 @@ function AuthPage() {
         // New redirect flow with tokens
         try {
           console.log('🔄 Processing tokens from redirect...');
-          const decodedTokens = JSON.parse(atob(decodeURIComponent(tokens)));
+          
+          // Use a more robust decoding approach
+          let decodedTokens;
+          try {
+            // First decode the URL component
+            const urlDecoded = decodeURIComponent(tokens);
+            // Then decode base64
+            const base64Decoded = window.atob(urlDecoded);
+            // Finally parse JSON
+            decodedTokens = JSON.parse(base64Decoded);
+          } catch (decodeError) {
+            console.error('Token decoding error:', decodeError);
+            throw new Error('Invalid token format received');
+          }
+          
           console.log('🔐 Decoded tokens:', decodedTokens);
           
           // Store tokens and update auth state
-          await auth.storeTokens(decodedTokens);
+          await apiService.storeTokens(decodedTokens);
           
           // Clear URL params
           const newUrl = window.location.origin + window.location.pathname;
