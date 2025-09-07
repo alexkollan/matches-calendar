@@ -8,7 +8,9 @@
     "dev:frontend": "cd frontend && npm run dev",
     "install:all": "cd backend && npm install && cd ../frontend && npm install",
     "build": "cd frontend && npm run build",
-    "start": "cd backend && npm start"
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "start": "concurrently --names \"BACKEND,FRONTEND\" --prefix-colors \"bgBlue.bold,bgMagenta.bold\" \"npm run start:backend\" \"npm run start:frontend\""
   },
   "keywords": [
     "sports",
@@ -23,5 +25,8 @@
   "engines": {
     "node": ">=16.0.0",
     "npm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
   }
 }
