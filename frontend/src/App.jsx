@@ -12,11 +12,21 @@ import SyncPage from './pages/SyncPage.jsx';
 import ToastContainer from './components/ToastContainer.jsx';
 import { useApp } from './contexts/AppContext.jsx';
 
-// Performance profiler callback
-const onRenderCallback = (id, phase, actualDuration, baseDuration, startTime, commitTime) => {
-  // Only log slow renders (over 50ms)
-  if (actualDuration > 50) {
-    console.warn(`🐌 Slow render detected: ${id} (${phase}) took ${actualDuration.toFixed(2)}ms`);
+// Performance profiler callback (dev-only)
+const isDev = (typeof import.meta !== 'undefined' && import.meta?.env?.MODE !== 'production')
+  || (typeof process !== 'undefined' && process?.env?.NODE_ENV !== 'production');
+
+const SLOW_RENDER_THRESHOLD = Number(
+  (typeof import.meta !== 'undefined' && import.meta?.env?.VITE_SLOW_RENDER_THRESHOLD)
+  ?? (typeof process !== 'undefined' && process?.env?.VITE_SLOW_RENDER_THRESHOLD)
+  ?? 200
+);
+
+const onRenderCallback = (id, phase, actualDuration) => {
+  if (!isDev) return;
+  if (actualDuration > SLOW_RENDER_THRESHOLD) {
+    // Use debug to reduce noise vs warn
+    console.debug(`🐌 Slow render detected: ${id} (${phase}) took ${actualDuration.toFixed(2)}ms`);
   }
 };
 
@@ -133,20 +143,22 @@ const AppRoutes = memo(function AppRoutes() {
  * Main App component
  */
 function App() {
-  return (
-    <Profiler id="App" onRender={onRenderCallback}>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Router>
-          <AppProvider>
-            <Profiler id="AppRoutes" onRender={onRenderCallback}>
-              <AppRoutes />
-            </Profiler>
-            <ToastContainer />
-          </AppProvider>
-        </Router>
-      </ThemeProvider>
+  const routed = (
+    <Profiler id="AppRoutes" onRender={onRenderCallback}>
+      <AppRoutes />
     </Profiler>
+  );
+
+  return (
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Router>
+        <AppProvider>
+          {isDev ? routed : <AppRoutes />}
+          <ToastContainer />
+        </AppProvider>
+      </Router>
+    </ThemeProvider>
   );
 }
 
